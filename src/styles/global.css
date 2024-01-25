@@ -49,9 +49,9 @@ html {
   .headerline {display: flex;}
 
   .headerline h1 {
-    margin: 3rem 0;
+    margin: 0 0;
     color: #205b34;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .headerline img {margin: 1em;}
@@ -105,6 +105,12 @@ html {
 
     .hamburger {
         display: none;
+    }
+
+    .headerline h1 {
+      margin: 2rem 0;
+      color: #205b34;
+      font-size: 2rem;
     }
   
   }
