@@ -15,5 +15,9 @@
     "@astrojs/rss": "^4.0.2",
     "astro": "^4.2.1",
     "preact": "^10.19.3"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.4",
+    "prettier-plugin-astro": "^0.13.0"
   }
 }
