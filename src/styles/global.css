@@ -15,9 +15,10 @@ html {
   body {
     margin: 0 auto;
     width: 100%;
-    max-width: 80ch;
+    max-width: 1080px;
     padding: 1rem;
     line-height: 1.5;
+    float: none;
   }
 
   
@@ -44,6 +45,16 @@ html {
     margin-bottom: 10px;
     background-color: #ff9776;
   }
+
+  .headerline {display: flex;}
+
+  .headerline h1 {
+    margin: 3rem 0;
+    color: #205b34;
+    font-size: 2rem;
+  }
+
+  .headerline img {margin: 1em;}
 
 .nav-links {
     width: 100%;

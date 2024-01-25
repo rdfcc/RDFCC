@@ -1,23 +1,23 @@
 ---
-import Navigation from '../components/Navigation.astro';
-import Hamburger from '../components/Hamburger.astro';
-import ThemeIcon from './ThemeIcon.astro';
+import Navigation from "../components/Navigation.astro";
+import Hamburger from "../components/Hamburger.astro";
+import ThemeIcon from "./ThemeIcon.astro";
+import { Image } from 'astro:assets';
+import RDFCCLogo from "../assets/cropped-Vector-Logo.webp";
 ---
 
 <header>
-    <nav>
-        <Hamburger/>
-        <ThemeIcon />
-        <div>
-        <h1>ROYAL DEAN FOREST CYCLING CLUB</h1>
+  <nav>
+    <div class="headerline">
+    <Hamburger />
+    <ThemeIcon />
+    
+      <Image src={RDFCCLogo} alt="Royal Dean Forest Logo" width="100px";/>
+      
+      <h1>ROYAL DEAN FOREST CYCLING CLUB</h1>
     </div>
-        <Navigation />
-    </nav>
+    <Navigation />
+  </nav>
 </header>
 
-<style>
-    h1 {
-    color: #205b34;
-	  font-size: 2rem;
-  }
-  </style>
+
