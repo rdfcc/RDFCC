@@ -1,7 +1,17 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Greeting from '../components/Greeting.jsx';
-const pageTitle = "ROYAL DEAN FOREST CYCLING CLUB";
+import PostCard from "../components/PostCard.astro";
+
+
+// utils imports
+import { formatBlogPosts } from "../scripts/utils";
+
+const pageTitle = "";
+const allPosts = await Astro.glob("./posts/*.md");
+const formattedPosts = formatBlogPosts(allPosts, {
+  limit: 3,
+});
 ---
 <style>
 	h1 {
@@ -19,7 +29,19 @@ const pageTitle = "ROYAL DEAN FOREST CYCLING CLUB";
     }
     </style>
 
-  <h2>My awesome blog subtitle</h2>
-  <Greeting messages={["Hi", "Hello", "Howdy", "Hey there"]} />
-  <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
+  
+  <section class="container" aria-label="New Blog Posts">
+    <h2 class="h1">Latest News</h2>
+    <div class="post-container">
+      {
+        formattedPosts.map((post) => (
+          <PostCard
+            frontmatter={post.frontmatter}
+            url={post.url}
+            tagType="h3"
+          />
+        ))
+      }
+    </div>
+  </section>
 </BaseLayout>

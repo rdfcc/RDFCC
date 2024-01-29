@@ -1,22 +1,32 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
+import PostCard from "../components/PostCard.astro";
+
 
 // utils imports
 import { formatBlogPosts } from "../scripts/utils";
 
 const allPosts = await Astro.glob("../pages/posts/*.md");
 const formattedPosts = formatBlogPosts(allPosts);
-const pageTitle = "News";
+const pageTitle = "Latest News from the club";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <p>Latest News from the club</p>
-  <ul>
-    {
-      formattedPosts.map((post) => (
-        <BlogPost postUrl={post.url} postTitle={post.frontmatter.title} />
-      ))
-    }
-  </ul>
+  
+  
+  <section class="container" aria-label="New Blog Posts">
+    
+    <div class="post-container">
+      {
+        formattedPosts.map((post) => (
+          <PostCard
+            frontmatter={post.frontmatter}
+            url={post.url}
+            tagType="h3"
+          />
+        ))
+      }
+    </div>
+  </section>
 </BaseLayout>

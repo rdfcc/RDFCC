@@ -2,14 +2,14 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: An interview with...Steve Phillips
 author: Michelle Lee
-description: "Whilst I can’t say I’m in Steve’s inner circle, as a fellow cycling adventurer, I’ve been in touch with him since our paths virtually crossed as I cycled to Greece, a year after moving to the Forest, as Steve cycled to meet club members down in southern France. With many of our club burning paths on paths less cycled, I thought it a good time to resurrect interviews getting to know our club member. We join Steve as he approaches the end of his current jaunt, heading north from the southern most tip of Europe on dusty gravel trails and mountain passes."
+description: "Go light, go alone, go fast, go far"
 image:
     url: "/public/Steve-Philips.webp"
     alt: "Steve Philips"
 pubDate: 2023-06-19
 tags: ["news", "members", "interview", "long distance"]
 ---
-
+Whilst I can’t say I’m in Steve’s inner circle, as a fellow cycling adventurer, I’ve been in touch with him since our paths virtually crossed as I cycled to Greece, a year after moving to the Forest, as Steve cycled to meet club members down in southern France. With many of our club burning paths on paths less cycled, I thought it a good time to resurrect interviews getting to know our club member. We join Steve as he approaches the end of his current jaunt, heading north from the southern most tip of Europe on dusty gravel trails and mountain passes.
 
 **Who is Steve?**
 
