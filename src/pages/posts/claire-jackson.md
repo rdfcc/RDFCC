@@ -4,7 +4,7 @@ title: Claire Jackson
 author: Michelle Lee
 description: "Claire Jackson is one of RDFCC's newest members. Read more about her journey to the Forest and feel inspired!"
 image:
-    url: "/public/claire-jackson.webp"
+    url: "/src/assets/claire-jackson.webp"
     alt: "Claire Jackson on a timetrial bike"
 pubDate: 2020-07-22
 tags: ["news", "members", "interview"]

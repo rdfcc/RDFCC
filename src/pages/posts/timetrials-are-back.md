@@ -4,7 +4,7 @@ title: Time Trials are back!
 author: Michelle Lee
 description: "18 Riders completed the challenging 15 mile course - Lydbrook Hilly."
 image:
-    url: "/public/Timetrials-are-back.webp"
+    url: "/src/assets/Timetrials-are-back.webp"
     alt: "Thumbnail of Astro rays."
 pubDate: 2020-07-20
 tags: ["timetrial", "news"]

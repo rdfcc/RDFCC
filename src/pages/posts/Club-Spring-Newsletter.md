@@ -4,7 +4,7 @@ title: RDFCC Newsletter March 2022
 author: Matt Neale
 description: "Upcoming events, annual awards recipients and membership"
 image:
-    url: "/public/club-spring-newsletter.webp"
+    url: "/src/assets/club-spring-newsletter.webp"
     alt: "Club Members"
 pubDate: 2022-03-09
 tags: ["news"]

@@ -4,7 +4,7 @@ title: An interview with...Steve Phillips
 author: Michelle Lee
 description: "Go light, go alone, go fast, go far"
 image:
-    url: "../assets/Steve-Philips.webp"
+    url: "/src/assets/Steve-Philips.webp"
     alt: "Steve Philips"
 pubDate: 2023-06-19
 tags: ["news", "members", "interview", "long distance"]

@@ -5,7 +5,7 @@ pubDate: 2020-07-13
 description: 'Ladies Club Record falls again!'
 author: 'Michelle Lee'
 image:
-    url: '/public/Lydbrook-Hilly-15.webp'
+    url: '/src/assets/Lydbrook-Hilly-15.webp'
     alt: 'Lydbrook Hilly 15 results'
 tags: ["timetrial", "news"]
 draft: false

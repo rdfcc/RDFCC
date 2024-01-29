@@ -1,8 +1,13 @@
 ---
 // library imports
-import { Image } from 'astro:assets';
+
+
+
+
+
 // component imports
 import Link from "./Link.astro";
+import ImageCard from "../components/ImageCard.astro"
 
 // utils imports
 import { slugify, formatDate } from "../scripts/utils";
@@ -12,19 +17,17 @@ const { frontmatter, url, tagType } = Astro.props;
 const Tag = tagType;
 
 const { title, pubDate, author, image, description } = frontmatter;
+
+
 ---
 
 <article class="card">
   
   <a href={url} aria-hidden="true" tabindex="-1">
-    <Image
-      src={image.url}
-      alt={image.alt}
-      width="400"
-      height="250"
-      format="webp"
-      quality={80}
-    />
+    <ImageCard 
+      imagePath={image.url}
+      altText={image.alt};
+      />
   </a>
   <div class="content">
     <div>

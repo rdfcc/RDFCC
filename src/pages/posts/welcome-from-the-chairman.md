@@ -4,7 +4,7 @@ title: Welcome from the Chairman
 author: Matt Neale
 description: "We like to think that the RDFCC is known as a friendly club and we are always pleased to see new faces. Our rides and events are publicised on the club website and our Facebook page where anyone is welcome to ask questions. You don't need to be a club member to join the page."
 image:
-    url: "/public/welcome-from-the-chairman.webp"
+    url: "/src/assets/welcome-from-the-chairman.webp"
     alt: "Thumbnail of Astro arcs."
 pubDate: 2020-07-20
 tags: ["news","chairman"]
