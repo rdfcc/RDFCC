@@ -1,71 +1,72 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const pageTitle = "About Us";
 
 
-const pageTitle = "About Me";
-
-const identity = {
-  firstName: "Sarah",
-  country: "Canada",
-  occupation: "Technical Writer",
-  hobbies: ["photography", "birdwatching", "baseball"],
-};
-
-const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "Writing Docs"];
-
-const happy = true;
-const finished = true;
-const goal = 3;
-
-const skillColor = "red";
-const fontWeight = "bold";
-const textCase = "uppercase";
 ---
 
-
-		
-
-		
 <BaseLayout pageTitle={pageTitle}>
+	<h2>CLUB RIDES & EVENTS</h2>
 
+	<h3>Come and join in!</h3>
 
-	
-    	<h2>... and my new Astro site!</h2>
+	<p>
+		Rides are provided for Club Members every Sunday. Check the Events page
+		for more info. Club events include a full Time Trial Club Events
+		calendar throughout the spring and summer, two Audax events in May and
+		various informal social rides throughout the year. We organise an annual
+		Open 25 Time Trial event. This is held at the end of August and club
+		members can ride for free. RDFCC also assist and advise on the Wild Boar
+		Chase which is organised by the Forest of Dean Lions Club. and this year
+		will be held in September.
+	</p>
 
-    	<p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
+	<h2>CLUB RIDES & EVENTS</h2>
 
-    	<p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
+	<h3>You're covered!</h3>
 
-		<p>Here are a few facts about me:</p>
-		<ul>
-			<li>My name is {identity.firstName}.</li>
-			<li>I live in {identity.country} and I work as a {identity.occupation}.</li>
-			{identity.hobbies.length >= 2 &&
-				<li>Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}</li>
-			}
-		</ul>
-		<p>My skills are:</p>
-		<ul>
-		{skills.map((skill) => <li class="skill">{skill}</li>)}
-		</ul>
+	<p>
+		The RDFCC are affiliated with a number of national cycling organisations
+		who provide a range of basic insurance cover when participating in club
+		events and rides. For further details please visit: British Cycling
+		Cycling Time Trials Cycling UK ​ RDFCC affiliation with Cycling Time
+		Trials provides riders with basic insurance at RDFCC club time trials
+		(it is not possible to ride our club time trials without being a member
+		of the RDFCC or another affiliated club). RDFCC membership will also
+		allow you to ride the club time trials of other clubs who are also
+		affiliated (e.g. Ross & District CC and Newport Phoenix), as well as
+		Open CTT events.
+	</p>
 
-		{happy && <p>I am happy to be learning Astro!</p>}
+	<h2>DISCOUNTED CLUB KIT</h2>
 
-		{finished && <p>I finished this tutorial!</p>}
+	<h3>Let's kit you out!</h3>
 
-		{goal === 3 ? <p>My goal is to finish in 3 days.</p> : <p>My goal is not 3 days.</p>}
+	<p>
+		RDFCC currently purchase club kit from Champion System UK. The kit is
+		discounted by the club in special offers when the 'club shop' is opened.
+		See Ali Colquoun for more details. Club kits promote the club on rides
+		and at events.
+	</p>
 
-		
+	<h2>LOCAL BUSINESS DISCOUNTS</h2>
+
+	<h3>You're saving!</h3>
+
+	<p>
+		On production of a membership card members can usually hope for up to
+		10% off at the following: ​ CHELTENHAM CYCLES in Cheltenham 01242 255414
+		CLIMB ON BIKES in Hereford 01432 261211 CYCLES CLEMENTS in Ledbury 01531
+		632213 DAVE EVANS CYCLES – Specialist Wheel Builds/Repairs/Spares & Used
+		Parts. 12 Wyeside Park, Bishopswood, Ross-on-Wye HR9 5QX. Phone:
+		07786-589992. EASTGATE CYCLES 76-78 Eastgate street, Gloucester, GL1
+		1QN. Phone: 01452 30036 I FIX BIKES – Mobile Bicycle Repair, Tintern.
+		Tel: 07500 115 438 LEISURE LAKES in Cheltenham 01242 251505 PEDALABIKE
+		AWAY in Cannop 01594 860065 (Members must present card for 10% discount)
+		REVOLUTIONS in Ross on Wye 01989 562639 WILLIAMS CYCLES in Cheltenham
+		01242 512291
+	</p>
 </BaseLayout>
 
-<style define:vars={{skillColor, fontWeight, textCase}}>
-	h1 {
-	  color: purple;
-	  font-size: 2rem;
-	}
-	.skill {
-		color: var(--skillColor);
-		font-weight: var(--fontWeight);
-		text-transform: var(--textCase);
-	  }
-</style>
+

@@ -1,0 +1,22 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BlogPost from "../components/BlogPost.astro";
+
+// utils imports
+import { formatBlogPosts } from "../scripts/utils";
+
+const allPosts = await Astro.glob("../pages/posts/*.md");
+const formattedPosts = formatBlogPosts(allPosts);
+const pageTitle = "News";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <p>Latest News from the club</p>
+  <ul>
+    {
+      formattedPosts.map((post) => (
+        <BlogPost postUrl={post.url} postTitle={post.frontmatter.title} />
+      ))
+    }
+  </ul>
+</BaseLayout>
