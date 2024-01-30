@@ -173,3 +173,12 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+.tt-container {
+  display: flex;
+}
+
+.tt-iframe {
+  width: 25em;
+  margin-right: 2em;
+}

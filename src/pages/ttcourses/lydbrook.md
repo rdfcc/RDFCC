@@ -1,11 +1,9 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
-title: Michelle Lee's adventure of a lifetime
-author: Steve Beal
+layout: ../../layouts/TimeTrialLayout.astro
+title: Hilly Lydbrook 15 (UC612)
 description: "America, South to North by club member Michelle Lee"
-image:
-    url: "/src/assets/Michelle-Lee.webp"
-    alt: "Michelle Lee"
-pubDate: 2022-01-30
-tags: ["news", "members", "long distance"]
+tags: ["timetrial"]
+rwgpsid: 4051033
 ---
+
+Hilly Lydbrook 15 (UC612)

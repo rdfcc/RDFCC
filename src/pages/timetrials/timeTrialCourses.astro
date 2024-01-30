@@ -1,0 +1,26 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import TTCard from "../../components/TTCard.astro";
+
+const pageTitle = "Time Trial Courses";
+const allCourses = await Astro.glob("../../pages/ttcourses/*.md");
+
+---
+
+<BaseLayout pageTitle={pageTitle}>
+    <section class="container" aria-label="New Blog Posts">
+    
+        <div class="tt-container">
+            
+          {
+            allCourses.map((post) => (
+            
+              <TTCard
+              frontmatter={post.frontmatter}
+                
+              />
+            ))
+          }
+        </div>
+      </section>
+</BaseLayout>
