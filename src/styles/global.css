@@ -307,3 +307,14 @@ a {
   height: 6em;
   font-size: 1rem;
 }
+
+.racing-container {
+  display: flex;
+  flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.racing {
+  flex: 45%;
+  margin: 1em;
+}
