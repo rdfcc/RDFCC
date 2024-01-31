@@ -1,9 +1,13 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import TTCard from "../components/TTCard.astro";
 const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
 
-
+    <TTCard
+    frontmatter={frontmatter}
+      
+    />
 </BaseLayout>

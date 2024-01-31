@@ -1,11 +1,85 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import timetrialsdata from "../../data/timetrials.json";
 
 const pageTitle = "Time Trials";
-
-
 ---
 
 <BaseLayout pageTitle={pageTitle}>
+    <h3>2024 Club TT programme</h3>
+
+    <p>2024 season has arrived..... time to ramp it up!</p>
+
+    <p>
+        CTT affiliated Club membership is required (for insurance) if you're not
+        a member of a CTT affiliated club then why not join ours!
+    </p>
+
+    <p>
+        The timetable of events can be found below along with links to the
+        course and meeting location. Any questions, please contact
+        John Linden, RDFCC Time Trial Secretary.
+    </p>
+
+    <table>
+        <tr>
+            <th>Number</th><th>Date</th><th>Time</th><th>Name</th><th>Course</th
+            ><th>Distance</th>
+        </tr>
+
+        {
+            timetrialsdata.map(
+                ({ Num, Name, Date, Time, Course, Distance, CourseLink }) => (
+                    <tr>
+                        <td>
+                            <p>{Num}</p>
+                        </td>
+                        <td>
+                            <p>{Date}</p>
+                        </td>
+                        <td>
+                            <p>{Time}</p>
+                        </td>
+                        <td>
+                            <p>{Name}</p>
+                        </td>
+                        <td>
+                            <p>
+                                <a href={`../ttcourses/${CourseLink}`}>
+                                    {Course}{" "}
+                                </a>
+                            </p>
+                        </td>
+                        <td>
+                            <p>{Distance}</p>
+                        </td>
+                    </tr>
+                ),
+            )
+        }
+    </table>
+
     <a href="./timeTrialCourses">Time Trial Courses</a>
 </BaseLayout>
+
+<style>
+    table {
+        border: grey;
+        border-width: 2px;
+        border-style: double;
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    td {
+        text-align: left;
+        border-width: 1px;
+        border-style: double;
+    }
+
+    th {
+        text-align: left;
+        border-width: 1px;
+        border-style: double;
+    }
+</style>
