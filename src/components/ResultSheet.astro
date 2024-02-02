@@ -1,23 +1,50 @@
 ---
 const response = await fetch(
-  "https://opensheet.elk.sh/1AHqEDEJr_dmTWN5_JEZf0QcO7mLFeMgnimGyCWk5NGs/1"
+  "https://opensheet.elk.sh/1AHqEDEJr_dmTWN5_JEZf0QcO7mLFeMgnimGyCWk5NGs/1",
 );
 const data = await response.json();
 ---
 
 <section>
   <h3>2023 Results</h3>
-  <div>
+
+
+  <table>
+    <tr>
+      <th>Rider</th><th>Course</th><th>Time</th><th>Club</th><th>Gender</th><th
+        >Category</th><th>Laps</th><th>Date</th>
+      
+    </tr>
+
     {
-      data
-        .map((result) => (
-          <div>
-            <div>
-              <p>{result.Rider}</p>
-              
-            </div>
-          </div>
-        ))
+      data.map((result) => (
+        <tr>
+          <td>
+            <p>{result.Rider}</p>
+          </td>
+          <td>
+            <p>{result.Course}</p>
+          </td>
+          <td>
+            <p>{result.Time}</p>
+          </td>
+          <td>
+            <p>{result.Club}</p>
+          </td>
+          <td>
+            <p>{result.Gender}</p>
+          </td>
+          <td>
+            <p>{result.Category}</p>
+          </td>
+          <td>
+            <p>{result.Laps}</p>
+          </td>
+          <td>
+            <p>{result.Date}</p>
+          </td>
+        </tr>
+      ))
     }
-  </div>
+  </table>
 </section>
