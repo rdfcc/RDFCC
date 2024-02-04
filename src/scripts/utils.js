@@ -15,9 +15,12 @@ export function slugify(text) {
     })
   }
   
+  
+  
   export function formatBlogPosts(posts, {
     filterOutDrafts = true,
     filterOutFuturePosts = true,
+    filterFrontPage = false,
     sortByDate = true,
     limit = undefined,
   } = {}) {
@@ -30,6 +33,7 @@ export function slugify(text) {
       // filterOutFuturePosts if true
       if (filterOutFuturePosts && new Date(pubDate) > new Date()) return acc;
   
+      
       // add post to acc
       acc.push(post)
   
@@ -47,6 +51,24 @@ export function slugify(text) {
     if (typeof limit === "number") {
       return filteredPosts.slice(0, limit);
     }
+    return filteredPosts;
+  
+  }
+
+  export function formatFrontPage(posts, {
+    filterFrontPage = false,
+  } = {}) {
+  
+    const filteredPosts = posts.reduce((acc, post) => {
+      const { frontpage } = post.frontmatter;
+      // filterOutDrafts if true
+      if (filterFrontPage && frontpage) { acc.push(post)} else {return acc;};
+  
+     
+      return acc;
+    }, [])
+  
+    
     return filteredPosts;
   
   }

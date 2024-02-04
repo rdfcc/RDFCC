@@ -9,6 +9,7 @@ image:
     alt: 'Lydbrook Hilly 15 results'
 tags: ["timetrial", "news"]
 draft: false
+frontpage: false
 ---
 
 

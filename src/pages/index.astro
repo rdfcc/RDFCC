@@ -5,13 +5,11 @@ import PostCard from "../components/PostCard.astro";
 
 
 // utils imports
-import { formatBlogPosts } from "../scripts/utils";
+import { formatFrontPage } from "../scripts/utils";
 
 const pageTitle = "";
 const allPosts = await Astro.glob("./posts/*.md");
-const formattedPosts = formatBlogPosts(allPosts, {
-  limit: 3,
-});
+const formattedPosts = formatFrontPage(allPosts,{filterFrontPage: true});
 ---
 <style>
 	h1 {

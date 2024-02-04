@@ -8,6 +8,7 @@ image:
     alt: "Claire Jackson on a timetrial bike"
 pubDate: 2020-07-22
 tags: ["news", "members", "interview"]
+frontpage: false
 ---
 
 
