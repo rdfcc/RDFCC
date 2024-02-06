@@ -9,7 +9,7 @@ html.dark {
 }
 
 .dark .nav-links a {
-  color:  #205b34;
+  color: #205b34;
 }
 
 body {
@@ -231,6 +231,7 @@ a {
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
 
+
   & .badge {
     --accent: var(--txt);
   }
@@ -268,7 +269,7 @@ a {
   display: grid;
   gap: var(--space-md);
   align-items: start;
-  
+
 
   @media (--md) {
     grid-template-columns: 1fr 1fr;
@@ -282,7 +283,7 @@ a {
 .tt-container {
   display: flex;
   flex-direction: row;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .tt-iframe {
@@ -296,10 +297,10 @@ a {
 
 .tt-iframe h2 {
   margin-top: 0;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: underline;
   text-decoration-color: #f5e416;
-  
+
 }
 
 
@@ -311,7 +312,7 @@ a {
 .racing-container {
   display: flex;
   flex-direction: row;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .racing {
@@ -320,22 +321,69 @@ a {
 }
 
 
-    table {
-        border: grey;
-        border-width: 2px;
-        border-style: double;
-        width: 100%;
-        margin-bottom: 2em;
-    }
+table {
+  border: grey;
+  border-width: 2px;
+  border-style: double;
+  width: 100%;
+  margin-bottom: 2em;
+}
 
-    td {
-        text-align: left;
-        border-width: 1px;
-        border-style: double;
-    }
+td {
+  text-align: left;
+  border-width: 1px;
+  border-style: double;
+}
 
-    th {
-        text-align: left;
-        border-width: 1px;
-        border-style: double;
-    }
+th {
+  text-align: left;
+  border-width: 1px;
+  border-style: double;
+}
+
+.frontpage-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.frontpage-container .card {
+  /* cards */
+
+  display: grid;
+  background-color: hsl(var(--muted));
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+width: 27%;
+margin-right: 3em;
+
+  & .badge {
+    --accent: var(--txt);
+  }
+
+  & [aria-hidden="true"] {
+    margin-inline: calc(var(--space-md) * -1);
+    margin-block: var(--space-md);
+  }
+
+  & img {
+    box-shadow: var(--shadow-sm);
+    object-fit:scale-down;
+    width: 90%;
+  }
+
+  & a {
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+  }
+
+  & .content {
+    display: grid;
+    gap: var(--space-xs);
+  }
+}
+

@@ -1,8 +1,8 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
-
+import { Image } from 'astro:assets';
 import PostCard from "../components/PostCard.astro";
-
+import RDFCCPhoto from "../assets/RDFCC_Gravel.png";
 
 // utils imports
 import { formatFrontPage } from "../scripts/utils";
@@ -26,11 +26,11 @@ const formattedPosts = formatFrontPage(allPosts,{filterFrontPage: true});
       font-size: 4rem;
     }
     </style>
-
+<Image src={RDFCCPhoto} alt="Royal Dean Forest Logo" ;/>
   
   <section class="container" aria-label="New Blog Posts">
     <h2 class="h1">Latest News</h2>
-    <div class="post-container">
+    <div class="frontpage-container">
       {
         formattedPosts.map((post) => (
           <PostCard
@@ -43,3 +43,7 @@ const formattedPosts = formatFrontPage(allPosts,{filterFrontPage: true});
     </div>
   </section>
 </BaseLayout>
+
+<style>
+ 
+  </style>
