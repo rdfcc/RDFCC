@@ -1,13 +1,19 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import timetrialsdata from "../../data/timetrials.json";
+import resultsdata from "../../data/results.json";
 
 const pageTitle = "Time Trials";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
     <a href="./timeTrialCourses">Time Trial Courses</a>
-    <a href="./results">2023 Results</a>
+
+    {
+        resultsdata.map(
+            ({ Num, Year, SheetUrl }) => (
+    <a href="./results">{Year} Results</a>
+    ))}
 
     <h3>2024 Club TT programme</h3>
 
@@ -64,4 +70,6 @@ const pageTitle = "Time Trials";
 
 </BaseLayout>
 
-
+<style>
+    a {margin-right: 1em;}
+</style>
