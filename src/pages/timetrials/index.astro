@@ -1,7 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import timetrialsdata from "../../data/timetrials.json";
-import resultsdata from "../../data/results.json";
+const allResults = await Astro.glob("../timetrials/resultYears/*.md");
 
 const pageTitle = "Time Trials";
 ---
@@ -10,9 +10,9 @@ const pageTitle = "Time Trials";
     <a href="./timeTrialCourses">Time Trial Courses</a>
 
     {
-        resultsdata.map(
-            ({ Num, Year, SheetUrl }) => (
-    <a href="./results">{Year} Results</a>
+        allResults.map(
+            (result) => (
+    <a href={result.url}>{result.frontmatter.Year} Results</a>
     ))}
 
     <h3>2024 Club TT programme</h3>

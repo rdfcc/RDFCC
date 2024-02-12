@@ -1,0 +1,16 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import ResultSheet from "../components/ResultSheet.astro";
+const { frontmatter } = Astro.props;
+
+const { SheetUrl, Year } = frontmatter;
+
+
+---
+<BaseLayout pageTitle={Year}>
+
+
+    <ResultSheet resultUrl={SheetUrl} resultYear={Year}/>
+
+</BaseLayout>
+ 
