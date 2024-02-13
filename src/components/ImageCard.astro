@@ -12,4 +12,4 @@ const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg
 if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif,webp}"`);
 ---
 
-    <Image src={images[imagePath]()} alt={altText} width={300} />
+    <Image class="w-full" src={images[imagePath]()} alt={altText}  />

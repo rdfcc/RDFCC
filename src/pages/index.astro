@@ -11,26 +11,16 @@ const pageTitle = "";
 const allPosts = await Astro.glob("./posts/*.md");
 const formattedPosts = formatFrontPage(allPosts,{filterFrontPage: true});
 ---
-<style>
-	h1 {
-	  color: #205b34;
-	  font-size: 4rem;
-	}
-</style>
+
   
 <BaseLayout pageTitle={pageTitle}>
 
-  <style>
-    h1 {
-      color: #205b34;
-      font-size: 4rem;
-    }
-    </style>
-<Image src={RDFCCPhoto} alt="Royal Dean Forest Logo" ;/>
+
+<Image class="w-full" src={RDFCCPhoto} alt="Group Photo" ;/>
   
   <section class="container" aria-label="New Blog Posts">
     <h2 class="h1">Latest News</h2>
-    <div class="frontpage-container">
+    <div class="grid grid-cols-1 md:grid-cols-3 md:grid-flow-row gap-2">
       {
         formattedPosts.map((post) => (
           <PostCard
