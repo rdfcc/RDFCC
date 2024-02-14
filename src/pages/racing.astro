@@ -7,32 +7,34 @@ const pageTitle = "Racing";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-	<div class="racing-container">
-		<div class="racing">
-			<h2>CLUB RIDES & EVENTS</h2>
+	<div
+		class="grid grid-cols-1 md:grid-cols-2 md:grid-cols-[70%_30%] px-8 py-4"
+	>
+		<div class="">
+			<h2 class="font-bold py-2">CLUB RIDES & EVENTS</h2>
 
-			<h3>Come and join in!</h3>
+			<h3 class="font-semibold py-2">Come and join in!</h3>
 
-			<p>
+			<p class="py-4">
 				Racing is not for everyone, but the club makes it fun! All you
 				need is a bike, a helmet, a rear light, a front light and a
 				thirst ;-)
 			</p>
-			<p>
+			<p class="py-4">
 				RDFCC regularly runs Time Trials on a Tuesday night through the
 				summer months, and you may see many members at the local and
 				regional CTT organised events.
-			</p><p>
+			</p><p class="py-4">
 				*** New CTT rules stipulate all participants in CTT affiliated
 				TimeTrials (which RDFCC's are) MUST now have a front light as
 				well as a rear. Also, helmets must always be worn, previously
 				helmets were not required for hill climbs***
-			</p><p>
+			</p><p class="py-4">
 				Whilst the focus in the club is largely time trials, some
 				members race Cyclocross (CX), Mountain Bike (MTB), Criteriums
 				and Road Races.
 			</p>
-			<p>
+			<p class="py-4">
 				If you're not sure, why not speak with one of the club members
 				or comment on the Facebook page - lots of people to take you
 				under their wing and get you up and rolling!
@@ -42,5 +44,14 @@ const pageTitle = "Racing";
 			<Image src={RacingPic} alt="TT" width="400" ; />
 		</div>
 	</div>
-	<a href="/timetrials/">Time Trials</a>
+	<div class="px-8">
+	<a href="/timetrials/" class="text-center my-2 inline-block rounded-full
+	bg-neutral-200 px-4 pb-2 pt-2.5 text-xs font-medium uppercase
+	leading-normal text-neutral-700 shadow-md transition duration-150
+	ease-in-out hover:bg-neutral-300 hover:shadow-lg
+	focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0
+	active:bg-neutral-400 active:shadow-lg dark:bg-neutral-600
+	dark:text-neutral-200 dark:hover:bg-neutral-500
+	dark:focus:bg-neutral-500 dark:active:bg-neutral-400">Time Trials</a>
+</div>
 </BaseLayout>
