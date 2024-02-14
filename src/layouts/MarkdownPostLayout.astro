@@ -5,9 +5,10 @@ const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
  
+  <div class="px-8">
   <p>{frontmatter.pubDate.slice(0,10)}</p>
   <p><em>{frontmatter.description}</em></p>
-  <p>Written by: {frontmatter.author}</p>
+  <p class="text-xs">Written by: {frontmatter.author}</p>
   <!-- <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} /> -->
   <ImageCard 
   imagePath={frontmatter.image.url}
@@ -22,5 +23,13 @@ const { frontmatter } = Astro.props;
       <p class="tag"><a href={`/tags/${tag}`}>{tag}</a></p>
     ))}
   </div>
+</div>
 </BaseLayout>
+
+<style is:global>
+  .newscontent p {
+  @apply  text-lg pb-2 pt-4;
+}
+
+</style>
 
