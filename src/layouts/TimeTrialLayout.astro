@@ -5,9 +5,10 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-
+<div class="px-8 md:w-8/12">
     <TTCard
     frontmatter={frontmatter}
       
     />
+</div>
 </BaseLayout>

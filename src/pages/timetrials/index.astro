@@ -7,83 +7,121 @@ const pageTitle = "Time Trials";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <a href="./timeTrialCourses" class="text-center my-2 inline-block rounded-full
+    <div class="px-8">
+        <a
+            href="./timeTrialCourses"
+            class="text-center my-2 inline-block rounded-full
 	bg-neutral-200 px-4 pb-2 pt-2.5 text-xs font-medium uppercase
 	leading-normal text-neutral-700 shadow-md transition duration-150
 	ease-in-out hover:bg-neutral-300 hover:shadow-lg
 	focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0
 	active:bg-neutral-400 active:shadow-lg dark:bg-neutral-600
 	dark:text-neutral-200 dark:hover:bg-neutral-500
-	dark:focus:bg-neutral-500 dark:active:bg-neutral-400">Time Trial Courses</a>
-
-    {
-        allResults.map(
-            (result) => (
-    <a href={result.url} class="text-center my-2 inline-block rounded-full
-	bg-neutral-200 px-4 pb-2 pt-2.5 text-xs font-medium uppercase
-	leading-normal text-neutral-700 shadow-md transition duration-150
-	ease-in-out hover:bg-neutral-300 hover:shadow-lg
-	focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0
-	active:bg-neutral-400 active:shadow-lg dark:bg-neutral-600
-	dark:text-neutral-200 dark:hover:bg-neutral-500
-	dark:focus:bg-neutral-500 dark:active:bg-neutral-400">{result.frontmatter.Year} Results</a>
-    ))}
-
-    <h3>2024 Club TT programme</h3>
-
-    <p>2024 season has arrived..... time to ramp it up!</p>
-
-    <p>
-        CTT affiliated Club membership is required (for insurance) if you're not
-        a member of a CTT affiliated club then why not join ours!
-    </p>
-
-    <p>
-        The timetable of events can be found below along with links to the
-        course and meeting location. Any questions, please contact
-        John Linden, RDFCC Time Trial Secretary.
-    </p>
-
-    <table>
-        <tr>
-            <th>Number</th><th>Date</th><th>Time</th><th>Name</th><th>Course</th
-            ><th>Distance</th>
-        </tr>
+	dark:focus:bg-neutral-500 dark:active:bg-neutral-400"
+            >Time Trial Courses</a
+        >
 
         {
-            timetrialsdata.map(
-                ({ Num, Name, Date, Time, Course, Distance, CourseLink }) => (
-                    <tr>
-                        <td>
-                            <p>{Num}</p>
-                        </td>
-                        <td>
-                            <p>{Date}</p>
-                        </td>
-                        <td>
-                            <p>{Time}</p>
-                        </td>
-                        <td>
-                            <p>{Name}</p>
-                        </td>
-                        <td>
-                            <p>
-                                <a href={`../ttcourses/${CourseLink}`}>
-                                    {Course}{" "}
-                                </a>
-                            </p>
-                        </td>
-                        <td>
-                            <p>{Distance}</p>
-                        </td>
-                    </tr>
-                ),
-            )
+            allResults.map((result) => (
+                <a
+                    href={result.url}
+                    class="text-center my-2 inline-block rounded-full
+	bg-neutral-200 px-4 pb-2 pt-2.5 text-xs font-medium uppercase
+	leading-normal text-neutral-700 shadow-md transition duration-150
+	ease-in-out hover:bg-neutral-300 hover:shadow-lg
+	focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0
+	active:bg-neutral-400 active:shadow-lg dark:bg-neutral-600
+	dark:text-neutral-200 dark:hover:bg-neutral-500
+	dark:focus:bg-neutral-500 dark:active:bg-neutral-400"
+                >
+                    {result.frontmatter.Year} Results
+                </a>
+            ))
         }
-    </table>
 
+        <h3 class="font-bold py-2">2024 Club TT programme</h3>
+
+        <p class="py-4">2024 season has arrived..... time to ramp it up!</p>
+
+        <p class="py-4">
+            CTT affiliated Club membership is required (for insurance) if you're
+            not a member of a CTT affiliated club then why not join ours!
+        </p>
+
+        <p class="py-4">
+            The timetable of events can be found below along with links to the
+            course and meeting location. Any questions, please contact John
+            Linden, RDFCC Time Trial Secretary.
+        </p>
+        <div class="flex flex-col">
+            <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+                <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+                    <div class="overflow-hidden">
+                        <table class="min-w-full text-left text-sm font-light">
+                            <thead class="border-b bg-gray-500 font-medium">
+                                <tr>
+                                    <th scope="col" class="px-6 py-2">Number</th
+                                    ><th scope="col" class="">Date</th><th
+                                        scope="col"
+                                        class="">Time</th
+                                    ><th scope="col" class="">Name</th><th
+                                        scope="col"
+                                        class="">Course</th
+                                    ><th scope="col" class="">Distance</th>
+                                </tr>
+                            </thead>
+                            {
+                                timetrialsdata.map(
+                                    ({
+                                        Num,
+                                        Name,
+                                        Date,
+                                        Time,
+                                        Course,
+                                        Distance,
+                                        CourseLink,
+                                    }) => (
+                                        <tr class="border-b bg-gray-200">
+                                            <td class="whitespace-nowrap px-6 ">
+                                                <p>{Num}</p>
+                                            </td>
+                                            <td class="whitespace-nowrap">
+                                                <p>{Date}</p>
+                                            </td>
+                                            <td class="whitespace-nowrap">
+                                                <p>{Time}</p>
+                                            </td>
+                                            <td class="whitespace-nowrap">
+                                                <p>{Name}</p>
+                                            </td>
+                                            <td class="whitespace-nowrap">
+                                                <p>
+                                                    <a
+                                                        href={`../ttcourses/${CourseLink}`}
+                                                        class="text-center inline-block rounded-full
+	bg-neutral-200 px-2 pb-1 pt-1 text-xs font-medium uppercase
+	leading-normal text-neutral-700 shadow-md transition duration-150
+	ease-in-out hover:bg-neutral-300 hover:shadow-lg
+	focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0
+	active:bg-neutral-400 active:shadow-lg dark:bg-neutral-600
+	dark:text-neutral-200 dark:hover:bg-neutral-500
+	dark:focus:bg-neutral-500 dark:active:bg-neutral-400"
+                                                    >
+                                                        {Course}{" "}
+                                                    </a>
+                                                </p>
+                                            </td>
+                                            <td class="whitespace-nowrap">
+                                                <p>{Distance}</p>
+                                            </td>
+                                        </tr>
+                                    ),
+                                )
+                            }
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </BaseLayout>
-
-<style>
-    a {margin-right: 1em;}
-</style>
