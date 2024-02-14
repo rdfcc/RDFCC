@@ -8,9 +8,9 @@ const allCourses = await Astro.glob("../../pages/ttcourses/*.md");
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <section class="container" aria-label="New Blog Posts">
+    <section>
     
-        <div class="tt-container">
+        <div class="p-8 grid grid-cols-1 md:grid-cols-2 md:grid-flow-row xl:grid-cols-3 xl:grid-flow-row gap-4">
             
           {
             allCourses.map((post) => (
