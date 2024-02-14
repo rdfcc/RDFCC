@@ -2,3 +2,8 @@ html {
     
     font-family: 'Nunito', sans-serif;
   }
+
+ 
+  .newscontent p {
+  @apply font-bold text-lg pb-2 pt-4;
+}

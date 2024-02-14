@@ -13,7 +13,9 @@ const { frontmatter } = Astro.props;
   imagePath={frontmatter.image.url}
   altText={frontmatter.image.alt};
   />
+  <div class="newscontent">
   <slot />
+</div>
 
   <div class="tags">
     {frontmatter.tags.map((tag) => (
@@ -21,23 +23,4 @@ const { frontmatter } = Astro.props;
     ))}
   </div>
 </BaseLayout>
-<style>
-  a {
-    color: azure;
-  }
 
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .tag {
-    margin: 0.25em;
-    border: dotted 1px #a1a1a1;
-    border-radius: .5em;
-    padding: .5em 1em;
-    font-size: 1.15em;
-    
-    background-color: #F8FCFD;
-  }
-</style>
