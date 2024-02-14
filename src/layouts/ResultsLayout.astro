@@ -5,12 +5,12 @@ const { frontmatter } = Astro.props;
 
 const { SheetUrl, Year } = frontmatter;
 
-
+const newPageTitle = Year+ " Time Trial Results";
 ---
-<BaseLayout pageTitle={Year}>
+<BaseLayout pageTitle={newPageTitle}>
 
-
+<div class="px-8">
     <ResultSheet resultUrl={SheetUrl} resultYear={Year}/>
-
+</div>
 </BaseLayout>
  
