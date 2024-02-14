@@ -14,11 +14,14 @@ const formattedPosts = formatFrontPage(allPosts,{filterFrontPage: true});
 
   
 <BaseLayout pageTitle={pageTitle}>
+<div class="p-2 w-full">
+<p class="text-center text-6xl">Welcome to our club!</p> 
 
+</div>
 
 <Image class="p-8 w-full" src={RDFCCPhoto} alt="Group Photo" ;/>
   
-  <section class="" aria-label="New Blog Posts">
+  <section class="">
     <h2 class="text-2xl m-8 font-semibold text-black">Latest News</h2>
     <div class="p-8 grid grid-cols-1 md:grid-cols-3 md:grid-flow-row gap-2">
       {
