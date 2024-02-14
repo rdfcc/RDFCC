@@ -4,4 +4,6 @@ html {
   }
 
  
-  
+  .expanded {
+    display: unset;
+  }  
