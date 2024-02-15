@@ -1,0 +1,21 @@
+---
+import BaseLayout from './BaseLayout.astro';
+
+const { frontmatter } = Astro.props;
+
+
+const newPageTitle = frontmatter.Date + " - " + frontmatter.Name;
+---
+<BaseLayout pageTitle={newPageTitle}>
+
+<div class="px-8">
+    <p class="font-semibold">Start</p>
+    <p>{frontmatter.Start}</p>
+    <p>what3words address: <a href={frontmatter.StartW3W} target="_blank" translate="no">///{frontmatter.StartW3W.slice(15)}</a></p>
+    <p class="font-semibold">Distance</p>
+    <p>{frontmatter.Distance}</p>
+    <p class="font-semibold">Description</p>
+    <slot />
+</div>
+</BaseLayout>
+ 

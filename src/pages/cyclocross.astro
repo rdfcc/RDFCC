@@ -1,0 +1,20 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import CyclocrossPic from "../assets/cyclocrossteam.jpg";
+
+const pageTitle = "Cyclocross";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+    <div
+        class="grid grid-cols-1 md:grid-cols-2 md:grid-cols-[50%_50%] px-8 py-4"
+    >
+    <div class="">
+<p>The club has a growing group of riders who compete in the Western and Welsh Cyclocross leagues. If you like to join in, send us a message!</p>
+    </div>
+    <div class="racing">
+        <Image src={CyclocrossPic} alt="TT" width="400" ; />
+    </div>
+    </div>
+</BaseLayout>

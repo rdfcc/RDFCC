@@ -21,7 +21,7 @@ const { title, pubDate, author, image, description } = frontmatter;
 
 ---
 
-<article class="card">
+<article class="group  justify-end items-end bg-gray-100 overflow-hidden rounded-xl shadow-lg relative hover:shadow-xl">
   
   <a href={url} aria-hidden="true" tabindex="-1">
     <ImageCard 
@@ -32,7 +32,7 @@ const { title, pubDate, author, image, description } = frontmatter;
   <div class="content">
     <div>
       <Tag class="h3">
-        <a href={url}>{title}</a>
+        <a href={url} class="font-bold">{title}</a>
       </Tag>
       <small>
         by {author}

@@ -15,9 +15,9 @@ const pageTitle = "Latest News from the club";
 <BaseLayout pageTitle={pageTitle}>
   
   
-  <section class="container" aria-label="New Blog Posts">
+  <section  aria-label="New Blog Posts">
     
-    <div class="post-container">
+    <div class="p-8 grid grid-cols-1 md:grid-cols-3 md:grid-flow-row gap-8">
       {
         formattedPosts.map((post) => (
           <PostCard

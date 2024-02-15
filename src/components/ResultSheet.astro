@@ -1,57 +1,59 @@
 ---
-
-
 const { resultUrl, resultYear } = Astro.props;
-
-
-
 
 const response = await fetch(resultUrl);
 const data = await response.json();
-
-
 ---
 
-<section>
-  <h3>{resultYear} Results</h3>
+<div class="flex flex-col">
+  <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+    <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+      <div class="overflow-hidden">
+        <table class="min-w-full text-left text-sm font-light">
+          <thead class="border-b bg-gray-500 font-medium">
+            <tr>
+              <th scope="col" class="px-6 py-2">Rider</th><th scope="col"
+                >Course</th
+              ><th scope="col">Time</th><th scope="col">Club</th><th scope="col"
+                >Gender</th
+              ><th scope="col">Category</th><th scope="col">Laps</th><th
+                scope="col">Date</th
+              >
+            </tr>
+          </thead>
 
-
-  <table>
-    <tr>
-      <th>Rider</th><th>Course</th><th>Time</th><th>Club</th><th>Gender</th><th
-        >Category</th><th>Laps</th><th>Date</th>
-      
-    </tr>
-
-    {
-      data.map((result) => (
-        <tr>
-          <td>
-            <p>{result.Rider}</p>
-          </td>
-          <td>
-            <p>{result.Course}</p>
-          </td>
-          <td>
-            <p>{result.Time}</p>
-          </td>
-          <td>
-            <p>{result.Club}</p>
-          </td>
-          <td>
-            <p>{result.Gender}</p>
-          </td>
-          <td>
-            <p>{result.Category}</p>
-          </td>
-          <td>
-            <p>{result.Laps}</p>
-          </td>
-          <td>
-            <p>{result.Date}</p>
-          </td>
-        </tr>
-      ))
-    }
-  </table>
-</section>
+          {
+            data.map((result) => (
+              <tr class="border-b bg-gray-200">
+                <td class="whitespace-nowrap px-6">
+                  <p>{result.Rider}</p>
+                </td>
+                <td class="whitespace-nowrap">
+                  <p>{result.Course}</p>
+                </td>
+                <td class="whitespace-nowrap">
+                  <p>{result.Time}</p>
+                </td>
+                <td class="whitespace-nowrap">
+                  <p>{result.Club}</p>
+                </td>
+                <td class="whitespace-nowrap">
+                  <p>{result.Gender}</p>
+                </td>
+                <td class="whitespace-nowrap">
+                  <p>{result.Category}</p>
+                </td>
+                <td class="whitespace-nowrap">
+                  <p>{result.Laps}</p>
+                </td>
+                <td class="whitespace-nowrap">
+                  <p>{result.Date}</p>
+                </td>
+              </tr>
+            ))
+          }
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
