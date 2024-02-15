@@ -1,0 +1,16 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import ResultSheet from "../components/ResultSheet.astro";
+const { frontmatter } = Astro.props;
+
+const { Date, Time, Name, StartW3W, Distance, RouteUrl, Cancelled } = frontmatter;
+
+const newPageTitle = Date + " - " + Name;
+---
+<BaseLayout pageTitle={newPageTitle}>
+
+<div class="px-8">
+    
+</div>
+</BaseLayout>
+ 
