@@ -22,7 +22,7 @@ const { pageTitle } = Astro.props;
     <title>{pageTitle}</title>
     <ViewTransitions />
   </head>
-  <body class="w-full max-w-screen-xl mx-auto">
+  <body class="w-full max-w-screen-xl mx-auto league-spartan-font">
     <Header />
 <div id="pageTitleDiv" class="w-full flex flex-col  justify-center items-center">
     <h1 id="pageTitle"  class="text-2xl px-8 py-4 font-semibold text-black">{pageTitle}</h1>
@@ -33,5 +33,13 @@ const { pageTitle } = Astro.props;
       import "../scripts/menu.js";
       import "../scripts/remove.js";
     </script>
+    <style>
+      .league-spartan-font {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+    </style>
   </body>
 </html>
