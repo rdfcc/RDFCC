@@ -5,36 +5,14 @@ const pageTitle = "About Us";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-	<div class="px-8">
+	<div class="p-2 w-full flex flex-col  justify-center items-center ">
 
-		<a
-			href="../joinus/"
-			class="text-center my-2 inline-block rounded-full
-			bg-neutral-200 px-4 pb-2 pt-2.5 mr-2 text-xs font-medium uppercase
-			leading-normal text-neutral-700 shadow-md transition duration-150
-			ease-in-out hover:bg-neutral-300 hover:shadow-lg
-			focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0
-			active:bg-neutral-400 active:shadow-lg dark:bg-neutral-600
-			dark:text-neutral-200 dark:hover:bg-neutral-500
-			dark:focus:bg-neutral-500 dark:active:bg-neutral-400"
-			>Join Us!</a
-		><a
-			href="../history/"
-			class="text-center my-2 inline-block rounded-full
-		bg-neutral-200 px-4 pb-2 pt-2.5 text-xs font-medium uppercase
-		leading-normal text-neutral-700 shadow-md transition duration-150
-		ease-in-out hover:bg-neutral-300 hover:shadow-lg
-		focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0
-		active:bg-neutral-400 active:shadow-lg dark:bg-neutral-600
-		dark:text-neutral-200 dark:hover:bg-neutral-500
-		dark:focus:bg-neutral-500 dark:active:bg-neutral-400"
-			>Our History</a
-		>
+		
 
+<div class="text-left md:mx-32 mx:16">
+		
 
-		<h2 class="font-bold py-2">CLUB RIDES & EVENTS</h2>
-
-		<h3 class="font-semibold py-2">Come and join in!</h3>
+		<h3 class="font-semibold text-xl pb-8">Come and join in!</h3>
 
 		<p class="">
 			Rides are provided for Club Members every Sunday. Check the Events
@@ -46,12 +24,30 @@ const pageTitle = "About Us";
 			advise on the Wild Boar Chase which is organised by the Forest of
 			Dean Lions Club. and this year will be held in September.
 		</p>
-
+		<div class=" w-full flex flex-col  justify-center items-center ">
+		<a
+			href="../joinus/"
+			class="object-center text-center my-2 inline-block rounded-full
+			bg-yellow-300 px-4 pb-2 pt-2.5 mr-2 text-xs font-medium uppercase
+			leading-normal text-neutral-700 shadow-md transition duration-150
+			ease-in-out hover:bg-neutral-300 hover:shadow-lg
+			focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0
+			active:bg-neutral-400 active:shadow-lg"
+			>Join Us!</a
+		><a
+		href="../history/"
+		class="object-center text-center my-2 inline-block rounded-full
+		bg-yellow-300 px-4 pb-2 pt-2.5 mr-2 text-xs font-medium uppercase
+		leading-normal text-neutral-700 shadow-md transition duration-150
+		ease-in-out hover:bg-neutral-300 hover:shadow-lg
+		focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0
+		active:bg-neutral-400 active:shadow-lg "
+		>Our History</a
+	></div>
 		
-
-		<h2 class="font-bold py-2">CLUB RIDES & EVENTS</h2>
-
-		<h3 class="font-semibold py-2" >
+		
+		
+		<h3 class="font-semibold pt-8 text-xl pb-8" >
 			You're covered!
 		</h3>
 
@@ -68,9 +64,9 @@ const pageTitle = "About Us";
 			District CC and Newport Phoenix), as well as Open CTT events.
 		</p>
 
-		<h2 class="font-bold py-2">DISCOUNTED CLUB KIT</h2>
+		<h2 class="font-semibold pt-8 text-xl pb-8">Discounted Club Kit</h2>
 
-		<h3 class="font-semibold py-2">Let's kit you out!</h3>
+		<h3 class="font-semibold pb-4">Let's kit you out!</h3>
 
 		<p>
 			RDFCC currently purchase club kit from Champion System UK. The kit
@@ -79,9 +75,9 @@ const pageTitle = "About Us";
 			club on rides and at events.
 		</p>
 
-		<h2 class="font-bold py-2">LOCAL BUSINESS DISCOUNTS</h2>
+		<h2 class="font-semibold pt-8 text-xl pb-8">Local Business Discounts</h2>
 
-		<h3 class="font-semibold py-2">You're saving!</h3>
+		<h3 class="font-semibold pb-4">You're saving!</h3>
 
 		<p>
 			On production of a membership card members can usually hope for up
@@ -107,5 +103,6 @@ const pageTitle = "About Us";
 				Cheltenham 01242 512291
 			</p>
 		</p>
+	</div>
 	</div>
 </BaseLayout>
