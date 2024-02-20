@@ -1,28 +1,43 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-import { Image } from 'astro:assets';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
 import PostCard from "../components/PostCard.astro";
-import RDFCCPhoto from "../assets/RDFCC_Gravel.png";
+import RDFCCPhoto from "../assets/RDFCC Gravel-2.png";
 
 // utils imports
 import { formatFrontPage } from "../scripts/utils";
 
 const pageTitle = "";
 const allPosts = await Astro.glob("./posts/*.md");
-const formattedPosts = formatFrontPage(allPosts,{filterFrontPage: true});
+const formattedPosts = formatFrontPage(allPosts, { filterFrontPage: true });
 ---
 
-  
 <BaseLayout pageTitle={pageTitle}>
-
-
-<Image class=" w-full" src={RDFCCPhoto} alt="Group Photo" ;/>
-<div class="p-2 w-full">
-  <p class="text-center text-6xl">Welcome to our club!</p> 
-  
+  <Image class="w-full" src={RDFCCPhoto} alt="Group Photo" ; />
+  <div class="p-2 w-full flex flex-col  justify-center items-center">
+    <p class="text-center text-3xl">
+      Welcome to our Royal Dean Forest Cycling Club
+    </p>
+    <p class="text-center mx-32 mt-8">
+      Also known as RDFCC, we are an all inclusive multi disipline cycling club.
+      Road, gravel, cyclocross, mtb, time-trials, you name it we like to do it
+      and support it. We’re always keen to encourage new members to please look
+      over our site and contact us about joining
+    </p>
+    <a
+			href="../joinus/"
+			class="object-center text-center my-2 inline-block rounded-full
+			bg-yellow-300 px-4 pb-2 pt-2.5 mr-2 text-xs font-medium uppercase
+			leading-normal text-neutral-700 shadow-md transition duration-150
+			ease-in-out hover:bg-neutral-300 hover:shadow-lg
+			focus:bg-neutral-300 focus:shadow-lg focus:outline-none focus:ring-0
+			active:bg-neutral-400 active:shadow-lg"
+			>Join Us!</a
+		>
   </div>
+  
   <section class="">
-    <h2 class="text-2xl m-8 font-semibold text-black">Latest News</h2>
+    <h2 class="text-2xl mt-8 px-8 font-semibold text-black">Latest News</h2>
     <div class="p-8 grid grid-cols-1 md:grid-cols-3 md:grid-flow-row gap-8">
       {
         formattedPosts.map((post) => (
@@ -35,8 +50,10 @@ const formattedPosts = formatFrontPage(allPosts,{filterFrontPage: true});
       }
     </div>
   </section>
+
+  <script>
+    import "../scripts/remove.js";
+  </script>
 </BaseLayout>
 
-<style>
- 
-  </style>
+<style></style>
