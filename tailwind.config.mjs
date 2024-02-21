@@ -4,6 +4,7 @@ export default {
 	theme: {
 		fontFamily: {
 			'nun': ['Nunito', 'sans-serif'],
+			'spar' : ['League Spartan', 'sans-serif'],
 		},
 		extend: {},
 	},
