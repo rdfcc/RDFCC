@@ -5,6 +5,7 @@ description: ""
 meet: "DEAN FOREST CYCLES FOR SIGN ON"
 tags: ["sprint"]
 rwgpsid: 4051155
+cttname: "uc503-parkend-1-km"
 ---
 
 Park End 1km Sprint
