@@ -6,7 +6,8 @@
     "Name": "Parkend 1km Sprint",
     "Course": "Parkend 1km",
     "Distance": "1km",
-    "CourseLink": "parkend-sprint"
+    "CourseLink": "parkend-sprint",
+    "CTTLink":"uc503-parkend-1-km"
   },
   {
     "Num": 2,
@@ -15,7 +16,8 @@
     "Name": "Lydbrook 10",
     "Course": "UC603",
     "Distance": "10 miles",
-    "CourseLink": "lydbrook10"
+    "CourseLink": "lydbrook10",
+    "CTTLink":"uc501"
   },
   {
     "Num": 3,
@@ -24,7 +26,8 @@
     "Name": "Lydbrook 10",
     "Course": "UC603",
     "Distance": "10 miles",
-    "CourseLink": "lydbrook10"
+    "CourseLink": "lydbrook10",
+    "CTTLink":"uc501"
   },
   {
     "Num": 4,
@@ -33,7 +36,8 @@
     "Name": "Bigswier HC",
     "Course": "Bigswier HC",
     "Distance": "2 miles",
-    "CourseLink": "bigsweir-hill-climb"
+    "CourseLink": "bigsweir-hill-climb",
+    "CTTLink":"uhc513-bigsweir"
   },
   {
     "Num": 5,
@@ -42,7 +46,8 @@
     "Name": "Lydbrook 10",
     "Course": "UC603",
     "Distance": "10 miles",
-    "CourseLink": "lydbrook10"
+    "CourseLink": "lydbrook10",
+    "CTTLink":"uc501"
   },
   {
     "Num": 6,
@@ -51,7 +56,8 @@
     "Name": "Cannop x2",
     "Course": "UC611",
     "Distance": "12 miles",
-    "CourseLink": "cannop"
+    "CourseLink": "cannop",
+    "CTTLink":"uc507"
   },
   {
     "Num": 7,
@@ -60,7 +66,8 @@
     "Name": "Lydbrook 10",
     "Course": "UC603",
     "Distance": "10 miles",
-    "CourseLink": "lydbrook10"
+    "CourseLink": "lydbrook10",
+    "CTTLink":"uc501"
   },
   {
     "Num": 8,
@@ -69,7 +76,8 @@
     "Name": "Speech House 10",
     "Course": "UC606",
     "Distance": "10 miles",
-    "CourseLink": "speechhouse10"
+    "CourseLink": "speechhouse10",
+    "CTTLink":"UC504"
   },
   {
     "Num": 9,
@@ -78,7 +86,8 @@
     "Name": "Lydbrook 10",
     "Course": "UC603",
     "Distance": "10 miles",
-    "CourseLink": "lydbrook10"
+    "CourseLink": "lydbrook10",
+    "CTTLink":"uc501"
   },
   {
     "Num": 10,
@@ -87,7 +96,8 @@
     "Name": "Hilly Lydbrook",
     "Course": "UC612",
     "Distance": "15 miles",
-    "CourseLink": "hilly-lydbrook"
+    "CourseLink": "hilly-lydbrook",
+    "CTTLink":"uc506"
   },
   {
     "Num": 11,
@@ -96,7 +106,8 @@
     "Name": "Cats Hill HC",
     "Course": "UCH-673",
     "Distance": "2 miles",
-    "CourseLink": "cats-hill"
+    "CourseLink": "cats-hill",
+    "CTTLink":"uch514-cats-hill"
   },
   {
     "Num": 12,
@@ -105,7 +116,8 @@
     "Name": "Lydbrook 10",
     "Course": "UC603",
     "Distance": "10 miles",
-    "CourseLink": "lydbrook10"
+    "CourseLink": "lydbrook10",
+    "CTTLink":"uc501"
   },
   {
     "Num": 13,
@@ -114,7 +126,8 @@
     "Name": "Cannop x3",
     "Course": "UC611",
     "Distance": "18 miles",
-    "CourseLink": "cannop"
+    "CourseLink": "cannop",
+    "CTTLink":"uc507"
   },
   {
     "Num": 14,
@@ -123,7 +136,8 @@
     "Name": "Lydbrook 10",
     "Course": "UC603",
     "Distance": "10 miles",
-    "CourseLink": "lydbrook10"
+    "CourseLink": "lydbrook10",
+    "CTTLink":"uc501"
   },
   {
     "Num": 15,
@@ -132,7 +146,8 @@
     "Name": "Cannop x2",
     "Course": "UC611",
     "Distance": "12 miles",
-    "CourseLink": "cannop"
+    "CourseLink": "cannop",
+    "CTTLink":"uc507"
   },
   {
     "Num": 16,
@@ -141,7 +156,8 @@
     "Name": "Lydbrook 10",
     "Course": "UC603",
     "Distance": "10 miles",
-    "CourseLink": "lydbrook10"
+    "CourseLink": "lydbrook10",
+    "CTTLink":"uc501"
   },
   {
     "Num": 17,
@@ -150,7 +166,8 @@
     "Name": "Speech Ho HC",
     "Course": "Speech Ho HC",
     "Distance": "1 miles",
-    "CourseLink": "speech-house"
+    "CourseLink": "speech-house",
+    "CTTLink":"uhc512"
   },
   {
     "Num": 18,
@@ -159,7 +176,8 @@
     "Name": "Hilly Lydbrook",
     "Course": "UC612",
     "Distance": "15 miles",
-    "CourseLink": "hilly-lydbrook"
+    "CourseLink": "hilly-lydbrook",
+    "CTTLink":"uc506"
   },
   {
     "Num": 19,
@@ -168,7 +186,8 @@
     "Name": "Саппор х1",
     "Course": "UC611",
     "Distance": "6 miles",
-    "CourseLink": "cannop"
+    "CourseLink": "cannop",
+    "CTTLink":"uc507"
   },
   {
     "Num": 20,
@@ -177,7 +196,8 @@
     "Name": "Fetter HC",
     "Course": "Fetter HC",
     "Distance": "2 miles",
-    "CourseLink": "fetter-hill"
+    "CourseLink": "fetter-hill",
+    "CTTLink":"uhc515-fetter-hill"
   },
   {
     "Num": 21,
@@ -186,6 +206,7 @@
     "Name": "Parkend 1km Sprint",
     "Course": "Parkend 1km",
     "Distance": "1km",
-    "CourseLink": "parkend-sprint"
+    "CourseLink": "parkend-sprint",
+    "CTTLink":"uc503-parkend-1-km"
   }
 ]
