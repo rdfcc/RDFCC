@@ -1,10 +1,27 @@
 ---
-import Social from './Social.astro';
+
+
+import { Image } from "astro:assets";
+import facebook from "../assets/facebook.png";
+import twitter from "../assets/twitter.png";
+import instagram from "../assets/instagram.png";
 ---
 
+<footer class="px-8 py-4 bg-yellow-300">
+    <div>
+        <p>©Royal Dean Forest Cycling Club</p>
+        <p class="text-right pb-2 font-bold">GET TO KNOW US:</p>
+    </div>
+    <div class="flex flex-row gap-4 justify-end">
+        <a href={`https://www.facebook.com/groups/rdfcc1`} target="_blank"
+            ><Image class="w-8" src={facebook} alt="facebook logo" ; /></a
+        >
 
-<footer class="flex px-8 py-4">
-    <Social platform="twitter" username="@RDFCC" />
-    <Social platform="facebook" username="groups/rdfcc1" />
-    <Social platform="instagram" username="rdfcc2020" />
+        <a href={`https://www.twitter.com/@RDFCC`} target="_blank"
+            ><Image class="w-8" src={twitter} alt="twitter logo" ; /></a
+        >
+        <a href={`https://www.instagram.com/rdfcc2020`} target="_blank"
+            ><Image class="w-8" src={instagram} alt="instagram logo" ; /></a
+        >
+    </div>
 </footer>

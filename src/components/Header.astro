@@ -6,16 +6,21 @@ import { Image } from 'astro:assets';
 import RDFCCLogo from "../assets/cropped-Vector-Logo.webp";
 ---
 
-<header>
-  <nav class="py-4 px-4 border-gray-200 bg-gradient-to-tr from-white via-green-200 to-green-900">
-    <div class="h-32 grid grid-flow-col grid-cols-[15%_20%_65%]">
-    <Hamburger />
-    <!-- <ThemeIcon /> -->
+<header class="sticky top-0 z-50 bg-white">
+  <nav class="border-gray-200">
+    <div class="bg-green-900 h-28 ">
+      <Hamburger />
+    <div class="flex flex-col  justify-center items-center">
     
-      <Image class="w-28" src={RDFCCLogo} alt="Royal Dean Forest Logo";/>
-      
-      <h1 class="text-lime-800 text-2xl font-bold p-4">ROYAL DEAN FOREST CYCLING CLUB</h1>
+    <!-- <ThemeIcon /> -->
+    <div>
+      <Image class="w-16  items-center" src={RDFCCLogo} alt="Royal Dean Forest Logo";/>
     </div>
+      <div>
+      <h1 class="text-white tracking-widest text-lg md:text-xl py-1 font-mono">ROYAL DEAN FOREST CYCLING CLUB</h1>
+    </div>
+    </div>
+  </div>
     <Navigation />
   </nav>
 </header>

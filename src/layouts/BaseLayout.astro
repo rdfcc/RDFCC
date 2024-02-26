@@ -15,21 +15,25 @@ const { pageTitle } = Astro.props;
       href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
     <link rel="icon" type="	image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
     <ViewTransitions />
   </head>
-  <body class="w-full font-nun">
+  <body class="w-full max-w-screen-xl mx-auto font-spar">
     <Header />
-<div class="">
-    <h1 class="text-2xl px-8 py-4 font-semibold text-black">{pageTitle}</h1>
+<div id="pageTitleDiv" class="w-full flex flex-col  justify-center items-center">
+    <h1 id="pageTitle"  class="text-2xl px-8 py-4 font-semibold text-black">{pageTitle}</h1>
   </div>
     <slot />
     <Footer />
     <script>
       import "../scripts/menu.js";
+      import "../scripts/remove.js";
     </script>
+    
   </body>
+  
 </html>
