@@ -137,3 +137,4 @@ Arriving home.
 **Why?**
 
 It’s the end of another chapter but also the start of the next which I’ve yet to discover; serendipity (finding valuable or agreeable things not looked for). My life spreads out before me over as large a surface as does all eternity to a god. Letters from a Stoic. Seneca.
+
