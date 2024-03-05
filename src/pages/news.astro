@@ -7,7 +7,7 @@ import PostCard from "../components/PostCard.astro";
 // utils imports
 import { formatBlogPosts } from "../scripts/utils";
 
-const allPosts = await Astro.glob("../pages/posts/*.md");
+const allPosts = await Astro.glob("../pages/posts/*.md*");
 const formattedPosts = formatBlogPosts(allPosts);
 const pageTitle = "Latest News from the club";
 ---

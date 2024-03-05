@@ -9,11 +9,13 @@ const { frontmatter } = Astro.props;
   <p>{frontmatter.pubDate.slice(0,10)}</p>
   <p><em>{frontmatter.description}</em></p>
   <p class="text-xs">Written by: {frontmatter.author}</p>
-  <!-- <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} /> -->
-  <ImageCard 
+  <div class="flex justify-center md:h-96">
+  <img src={frontmatter.image.url}  alt={frontmatter.image.alt} />
+  </div>
+  <!-- <ImageCard 
   imagePath={frontmatter.image.url}
   altText={frontmatter.image.alt};
-  />
+  /> -->
   <div class="newscontent">
   <slot />
 </div>
@@ -30,6 +32,9 @@ const { frontmatter } = Astro.props;
   .newscontent p {
   @apply  text-lg pb-2 pt-4;
 }
+
+.newscontent img 
+{@apply flex justify-center md:h-96}
 
 </style>
 
