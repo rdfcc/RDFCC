@@ -4,11 +4,12 @@ title: 2023/24 Cyclocross Season Review
 author: James Moverley
 description: ""
 image:
-    url: "/src/assets/cx-james.jpg"
+    url: "/src/assets/cyclocross-2023-season-review.jpg"
     alt: "James Moverley"
 pubDate: 2024-03-05
 tags: ["news", "members", "cyclocross"]
 frontpage: true
+imagePrefix: "cx-"
 ---
 
 2023 saw an active return for the club racing cyclocross. Four members regularly raced covering ten races in the Weston Cyclocross league along with races in the Welsh league and Hellcross in Belgium.

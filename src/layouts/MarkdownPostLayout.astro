@@ -1,6 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import ImageCard from "../components/ImageCard.astro"
+import Gallery from "../components/Gallery.astro"
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
@@ -21,6 +22,10 @@ const { frontmatter } = Astro.props;
   <div class="newscontent">
   <slot />
 </div>
+
+<!-- <div>
+  <Gallery/>
+</div> -->
 
   <div class="tags">
     {frontmatter.tags.map((tag) => (
