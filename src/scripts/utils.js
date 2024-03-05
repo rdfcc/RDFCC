@@ -68,6 +68,7 @@ export function slugify(text) {
       return acc;
     }, [])
   
+    filteredPosts.sort((a, b) => new Date(b.frontmatter.pubDate) - new Date(a.frontmatter.pubDate))
     
     return filteredPosts;
   
