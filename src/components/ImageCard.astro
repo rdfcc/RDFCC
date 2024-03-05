@@ -11,7 +11,7 @@ const { imagePath, altText } = Astro.props;
 const images = import.meta.glob<{ default: ImageMetadata }>('/src/assets/*.{jpeg,jpg,png,gif,webp}');
 if (!images[imagePath]) throw new Error(`"${imagePath}" does not exist in glob: "src/assets/*.{jpeg,jpg,png,gif,webp}"`);
 ---
-<div class="flex justify-center md:h-52 ">
-    <Image class="" src={images[imagePath]()} alt={altText}  />
+<div >
+    <Image class="w-auto" src={images[imagePath]()} alt={altText}  />
    </div>
     

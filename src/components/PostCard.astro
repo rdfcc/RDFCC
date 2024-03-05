@@ -24,10 +24,12 @@ const { title, pubDate, author, image, description } = frontmatter;
 <article class="group  justify-end items-end bg-gray-100 overflow-hidden rounded-xl shadow-lg relative hover:shadow-xl">
   
   <a href={url} aria-hidden="true" tabindex="-1">
+    <div class="flex justify-center  w-full">
     <ImageCard 
       imagePath={image.url}
       altText={image.alt};
       />
+    </div>
   </a>
   <div class="content">
     <div>

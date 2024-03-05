@@ -15,7 +15,7 @@ frontpage: true
 
 The  season started at Pitville Park Cheltenham, typically a dry, fast and enjoyable race. A grounding of how hard cyclocross is and unfit you are!
 
-![Dan ](/src/assets/cx-dan.jpg)
+
 
 
 Netham Park in Bristol was the next round, an even faster course, but still dry, A crash on the start line was narrowly avoided by Jon and James, however James retired but Jon went on to finish strongly. 
@@ -24,7 +24,6 @@ Stroud was the first race where the mud first appeared and followed us for the r
 We are lucky to live in the Forest of Dean as not only  do we compete in the Weston League, when there are no races on we are able to go across the border to race. Pontypool was bitterly cold, James punctured on lap one, Emily however managed to finish second, she also podiumed later on at Upton Chevney.
 
 
-![Emily ](/src/assets/cx-emily.jpg)
 
 Shamcross, the Regional Championships, was a miserable affair with thick mud that clung to everything This is where _Dynamo Dan_ got his nickname from, after racing on the most inappropriate tyres! Also this is where he became the clubs top Heckler.
 
@@ -33,6 +32,6 @@ James went back to Belgium to race at the last ever Hellcross. Hellcross isn’t
 
 Sadly the season was cut short due to the prolonged wet weather, the last race run was at the Mendips raceway, a varid and entertaining course to say the least. 
 
-![Jon ](/src/assets/cx-jon.jpg)
+
 
 The 2024/25 season starts in September, feel free to join us as we again will race as many events over the winter, a great way to keep your fitness up.
