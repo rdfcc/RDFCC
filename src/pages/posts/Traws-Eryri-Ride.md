@@ -25,6 +25,6 @@ Itinerary for 3 nights – 50km per day
 |Trawsfynydd to Betws-y-Coed    |      51        |   1279     |
 |Betws-y-Coed to Conwy          |      54        |   1264     |
 
-More info here: https://www.cyclinguk.org/traws-eryri
+For more information from Cycling UK click [here](https://www.cyclinguk.org/traws-eryri)
 
 ![Traws Eryri Map](../../assets/Traws-Eryri-Map.jpeg)
