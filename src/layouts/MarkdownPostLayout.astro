@@ -1,7 +1,7 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import ImageCard from "../components/ImageCard.astro"
-import Gallery from "../components/Gallery.astro"
+
 const { frontmatter } = Astro.props;
 ---
 <BaseLayout pageTitle={frontmatter.title}>
@@ -41,7 +41,7 @@ const { frontmatter } = Astro.props;
 }
 
 .newscontent img 
-{@apply flex justify-center md:h-96}
+{@apply flex justify-center md:h-96 w-auto}
 
 </style>
 
