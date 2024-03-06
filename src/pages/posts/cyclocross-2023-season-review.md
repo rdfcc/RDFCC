@@ -2,7 +2,7 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 2023/24 Cyclocross Season Review
 author: James Moverley
-description: ""
+description: "James hightlights the highs and low of our Cyclocross season"
 image:
     url: "/src/assets/cyclocross-2023-season-review.jpg"
     alt: "James Moverley"
