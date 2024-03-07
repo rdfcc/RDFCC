@@ -73,3 +73,11 @@ export function slugify(text) {
     return filteredPosts;
   
   }
+
+  export function sortRides(rides)
+  {
+
+    rides.sort((a,b) => new Date(b.frontmatter.Date) - new Date(a.frontmatter.Date))
+
+    return rides;
+  }
