@@ -8,6 +8,9 @@ const { SheetUrl, Year } = frontmatter;
 const newPageTitle = Year+ " Time Trial Results";
 ---
 <BaseLayout pageTitle={newPageTitle}>
+    <div>
+        <a href="../timetrials/">&lt;-- Back to Time Trials</a>
+    </div>
 
 <div class="px-8">
     <ResultSheet resultUrl={SheetUrl} resultYear={Year}/>
