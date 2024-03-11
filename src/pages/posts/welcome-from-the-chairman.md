@@ -8,7 +8,7 @@ image:
     alt: "Thumbnail of Astro arcs."
 pubDate: 2020-07-20
 tags: ["news","chairman"]
-frontpage: true
+frontpage: false
 ---
 Most of our rides are at a sociable pace and we will not leave anyone behind. If you wish to join us on a ride and are unsure of what will happen get in touch with us and someone will be happy to help. If you feel the need for advice or reassurance about some element of your cycling please ask.
 

@@ -56,11 +56,15 @@ export function slugify(text) {
   }
 
   export function formatFrontPage(posts, {
-    filterFrontPage = false,
+    filterFrontPage = false, filterOutDrafts = true,
   } = {}) {
   
     const filteredPosts = posts.reduce((acc, post) => {
-      const { frontpage } = post.frontmatter;
+      const { frontpage, draft } = post.frontmatter;
+
+      // filterOutDrafts if true
+      if (filterOutDrafts && draft) return acc;
+      
       // filterOutDrafts if true
       if (filterFrontPage && frontpage) { acc.push(post)} else {return acc;};
   
