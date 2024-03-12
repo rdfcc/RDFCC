@@ -4,12 +4,12 @@ title: RDFCC Awards 2023
 author: Matt Neale
 description: "Every year, usually at the annual dinner, we present a selection of trophies for club related activities..."
 image:
-    url: "/src/assets/Club Prizes 2020.webp"
-    alt: "Club Best All Rounder"
+    url: "/src/assets/Awards-2023-Atmosphere1.jpg"
+    alt: "RDFCC Awards Dinner 2023"
 pubDate: 2024-03-11
 tags: ["news", "members", "awards"]
 frontpage: true
-draft: true
+draft: false
 ---
 
 Every year, usually at the annual dinner, we present a selection of trophies for club related activities. Some, such as the time trial trophies are based on a seasons effort whilst other may have a eclectic reason for presentation.
@@ -20,6 +20,8 @@ Female CBAR Red - Claire Jackson
 Male CBAR Red - Jon Mansell  
 	Blue - Rob Newth  
 	Black - Dale Reed  
+
+![Claire Jackson](../../assets/Awards-2023-Claire-Jackson.jpg)
      
 Anonymous Cup - Best CBAR overall Rob Newth  
 Vets CBAR - Rob Newth  
@@ -28,6 +30,8 @@ U40 CBAR - Josh Hall
 The Lindsay Venner trophy is awarded in memory of a longstanding club member. Riders are bound by non aero rules and the event is held on a hilly course. 
 
 Lindsay Venner Trophy - Chris Wills
+
+![Chris Wills](../../assets/Awards-2023-Chris-Wills.jpg)
 
 The hill climb championship runs withing the time trial season over, this year, three hills. 
 
@@ -44,12 +48,18 @@ Best Vet in VT - Jon Mansell
 Audax Points rider - Jon Batts  
 Audax AAA rider - Jon Batts  
 
+![Dinner Atmosphere](../../assets/Awards-2023-Atmosphere2.jpg)
+
 The Ross and District CC award goes to the Ross club member who has collected the most points in our club times trials. This year MTB rider and Cyclo cross rider went to people who had represented the club successfully throughout the year and in the case of CX encouraged a new batch of members to ride which may also lead to bigger and better things.
 
 Best Ross and District CC member - Paul Stephens  
 MTB rider of the year -  Michelle Forster  
 CX rider of the year - James Moverley
 
+![James Moverley](../../assets/Awards-2023-James-Moverley.jpg)
+
 Finally, the club member of the year always goes to someone who has represented the club or worked hard in some way. Someone we can be proud of. This year’s winner is both one of our most ”original” members and  also possibly the most successful on the world stage.
 
 Brian Lewis. World Champion. 
+
+![Brian Lewis](../../assets/Awards-2023-Brian-Lewis.jpg)
