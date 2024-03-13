@@ -208,5 +208,15 @@
     "Distance": "1km",
     "CourseLink": "parkend-sprint",
     "CTTLink":"uc503-parkend-1-km"
+  },
+  {
+    "Num": 22,
+    "Date": "22/09/2024",
+    "Time": "10:00",
+    "Name": "Vintage Tankard",
+    "Course": "Vintage Tankard Ross",
+    "Distance": "25km",
+    "CourseLink": "Vintage-Tankard-Ross",
+    "CTTLink":"vintage-tankard"
   }
 ]
