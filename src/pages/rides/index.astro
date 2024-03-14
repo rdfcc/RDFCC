@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { sortRides } from "../../scripts/utils";
+import { slugify, formatDate } from "../../scripts/utils";
 const allRides = await Astro.glob("../rides/ridedetails/*.md");
 
 const sortedRides = sortRides(allRides);
@@ -32,7 +33,7 @@ const pageTitle = "Rides";
                                 sortedRides.map((ride) => (
                                     <tr class="border-b bg-gray-200">
                                         <td class="whitespace-nowrap">
-                                            <p>{ride.frontmatter.Date}</p>
+                                            <p>{formatDate(ride.frontmatter.Date)}</p>
                                         </td>
                                         <td class="whitespace-nowrap">
                                             <p>{ride.frontmatter.Time}</p>

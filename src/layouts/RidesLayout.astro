@@ -1,10 +1,10 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-
+import { slugify, formatDate } from "../scripts/utils";
 const { frontmatter } = Astro.props;
 
 
-const newPageTitle = frontmatter.Date + " - " + frontmatter.Name;
+const newPageTitle = formatDate(frontmatter.Date) + " - " + frontmatter.Name;
 ---
 <BaseLayout pageTitle={newPageTitle}>
 

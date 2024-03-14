@@ -1,13 +1,15 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import ImageCard from "../components/ImageCard.astro"
-
+import { slugify, formatDate } from "../scripts/utils";
 const { frontmatter } = Astro.props;
+
+const pubDate = frontmatter.pubDate.slice(0,10)
 ---
 <BaseLayout pageTitle={frontmatter.title}>
  
   <div class="px-8">
-  <p>{frontmatter.pubDate.slice(0,10)}</p>
+  <p>{formatDate(pubDate)}</p>
   <p><em>{frontmatter.description}</em></p>
   <p class="text-xs">Written by: {frontmatter.author}</p>
   
