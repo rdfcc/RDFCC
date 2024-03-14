@@ -62,7 +62,7 @@ export function slugify(text) {
     const filteredPosts = posts.reduce((acc, post) => {
       const { frontpage, draft } = post.frontmatter;
 
-      // filterOutDrafts if true
+      // filterOutDrafts if true  
       if (filterOutDrafts && draft) return acc;
       
       // filterOutDrafts if true
