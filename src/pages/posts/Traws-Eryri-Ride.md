@@ -9,6 +9,7 @@ image:
 pubDate: 2024-03-06
 tags: ["news", "members", "bikepacking", "rides"]
 frontpage: true
+draft: false
 imagePrefix: ""
 ---
 

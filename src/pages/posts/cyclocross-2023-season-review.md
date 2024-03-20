@@ -10,6 +10,7 @@ pubDate: 2024-03-05
 tags: ["news", "members", "cyclocross"]
 frontpage: true
 imagePrefix: "cx-"
+draft: false
 ---
 
 2023 saw an active return for the club racing cyclocross. Four members regularly raced covering ten races in the Weston Cyclocross league along with races in the Welsh league and Hellcross in Belgium.

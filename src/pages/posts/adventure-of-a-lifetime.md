@@ -9,6 +9,7 @@ image:
 pubDate: 2022-01-30
 tags: ["news", "members", "long distance"]
 frontpage: false
+draft: false
 ---
 
 On Friday 21st January 2022 with a last minute green for go, Michelle Lee set off to the other side of the world landing in Buenos Aires for the beginning of quite a remarkable adventure ahead of her.

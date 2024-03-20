@@ -9,6 +9,7 @@ image:
 pubDate: 2020-08-23
 tags: ["news", "members", "rides"]
 frontpage: false
+draft: false
 ---
 
 Three intrepid explorers braved my first attempt at leading a club ride. Clearly trusting that I would not throw in some extra hills we departed in the sun for what had not been billed as a chance to top up your tan.

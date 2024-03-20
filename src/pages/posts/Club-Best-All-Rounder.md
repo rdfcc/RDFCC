@@ -9,6 +9,7 @@ image:
 pubDate: 2021-01-31
 tags: ["news", "members", "timetrials"]
 frontpage: false
+draft: false
 ---
 
 Our CBAR competition is the overall result of the club time trials throughout the year. Points are awarded to all riders in each event. The faster you go, the more points you get. The CBAR classes are decided by the average speed a rider manages and where there is a noticeable gap a new class is created (all very approximately!) Regular riding is rewarded with lots of points. You don’t have to be the fastest to win your class, just the most consistent. The colours are in order of speed, red being the super-fast and black being the old (and slow) men/women, unfit and occasional riders.

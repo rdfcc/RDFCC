@@ -9,6 +9,7 @@ image:
 pubDate: 2021-02-20
 tags: ["news", "members", "interview"]
 frontpage: false
+draft: false
 ---
 Q. Hey Teri! Welcome! Knowing you’re new to the club, how would you describe yourself in 10 words?
 

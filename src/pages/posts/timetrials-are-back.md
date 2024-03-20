@@ -9,6 +9,7 @@ image:
 pubDate: 2020-07-20
 tags: ["timetrial", "news"]
 frontpage: false
+draft: false
 ---
 Time Trials returned to the Forest after a nationwide absence in 2020. Pent up energy saw 18 starters and finishers, a new women’s course record and some great support. Jared Linden’s new Time Trialling App got it’s latest beta run, and proved to deliver results as soon as the last rider finished.
 

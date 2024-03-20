@@ -9,6 +9,7 @@ image:
 pubDate: 2020-08-01
 tags: ["news", "members", "rides"]
 frontpage: false
+draft: false
 ---
 
 5 out on the road ride, the splitters went off with Emily's off road ride :-)

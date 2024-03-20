@@ -9,6 +9,7 @@ image:
 pubDate: 2021-01-31
 tags: ["news", "members", "prizes"]
 frontpage: false
+draft: false
 ---
 
 On January 20th, 2021 the club held an online presentation of the awards presented for 2020. Sadly, the Covid pandemic had prevented a face-to-face meeting at the end of 2020. Most trophies are available to be collected if your individual exercise should bring you to Bream. Contact Matt Neale for more info. Most of the awards were linked to the time trial season but a few others were “presented” as well. The Club Best All Rounder (CBAR) results are in classes (colour coded) fastest to slowest.

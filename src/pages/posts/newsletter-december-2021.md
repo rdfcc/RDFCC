@@ -9,6 +9,7 @@ image:
 pubDate: 2021-12-09
 tags: ["news", "agm", ]
 frontpage: false
+draft: false
 ---
 On Wednesday 1st December we had the 2021 AGM at Berry Hill rugby club thanks to Dave Kearsey. A real AGM was great. So much better than Zoom.
 

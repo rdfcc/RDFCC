@@ -9,6 +9,7 @@ image:
 pubDate: 2020-07-25
 tags: ["news", "members", "rides"]
 frontpage: false
+draft: false
 ---
 
 The group set off as the bells were striking nine. A quick warm up to Bream before dropping into the Wye Valley. After passing approximately 47890 other cyclists we crossed the Severn Bridge. A brief debate was had as to whether it was a hill or not...it was decided that it was.
