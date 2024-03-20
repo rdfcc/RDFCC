@@ -7,10 +7,10 @@ Atlantic at Buenos Aires"
 image:
     url: "/src/assets/Colin-C-TA-006-highlight.jpg"
     alt: "Colin Cartwright"
-pubDate: 2024-03-14
+pubDate: 2024-03-20
 tags: ["news", "members", "long distance"]
 frontpage: true
-draft: true
+draft: false
 ---
 
 This is a brief report from my ride across South America from Valparaiso on Chile’s Pacific coast to the
