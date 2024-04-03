@@ -12,7 +12,7 @@ const pageTitle = "Rides";
 <BaseLayout pageTitle={pageTitle}>
     <div class="px-8">
         <p>Below you will find a list of the currently organised rides. Clicking on the name will open a page with more details.</p>
-        <div class="flex flex-col">
+<!--         <div class="flex flex-col">
             <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
                     <div class="overflow-hidden rounded-md">
@@ -85,8 +85,9 @@ dark:focus:bg-neutral-500 dark:active:bg-neutral-400" target="_blank"
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
-    <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FLondon&bgcolor=%230B8043&showTitle=0&showPrint=0&showCalendars=0&showTz=0&showTabs=0&src=cmRmY2N3ZWJtYXN0ZXJAZ21haWwuY29t&color=%23039BE5" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <div data-tockify-component="calendar" data-tockify-calendar="rdfcc"></div>
+    <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
 </BaseLayout>
