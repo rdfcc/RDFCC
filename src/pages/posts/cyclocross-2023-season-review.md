@@ -8,7 +8,7 @@ image:
     alt: "James Moverley"
 pubDate: 2024-03-05
 tags: ["news", "members", "cyclocross"]
-frontpage: true
+frontpage: false
 imagePrefix: "cx-"
 draft: false
 ---
