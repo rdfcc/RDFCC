@@ -4,7 +4,7 @@ title: Ride Report - Chairman's 100
 author: Chris Hodsman
 description: "Chris' report of his Chairman's 100 ride"
 image:
-    url: "/src/assets/Chris-Malvern-View.jpg"
+    url: "/src/assets/Chris-Malvern-View-2.jpg"
     alt: "Dave McDonald"
 pubDate: 2024-04-22
 tags: ["news", "members", "long distance"]
@@ -27,3 +27,5 @@ Total time for the 100 was under 7hrs, and moving time for the 110 miles of the 
 A great route if anyone else fancies it later in the season… Thanks to Matt for putting up the route
 
 ![Chris Selfie](../../assets/Chris-Selfie.jpg)
+
+![Chris Route](../../assets/Chris-route.png)
