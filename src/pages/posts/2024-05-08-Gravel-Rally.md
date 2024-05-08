@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Pan Celtic Gravel Rally
-author: Emily B Baggers
+author: Emily B
 description: "Club outing to the Gravel Rally"
 image:
     url: "/src/assets/Gravel-Rally-Start.jpg"
@@ -36,5 +36,7 @@ A small sign by the track side, announces the start of 'stage 2' A long, absolut
 Gravel rally really is a battle of mind over matter at times and 100% better ridden with friends, the transitions at each point allow you to regroup and laugh at what you've just been through. And the day really did turn out to be about friends, as we rounded one of the later stages in the Penmancho area, I recognised a good friend back from my Surrey league days, Natalie, fixing a puncture, despite a quick chat on the first day I hadn't seen her again on the busy starts so this was a lucky moment and we stopped to wait. A fast fix and we were all off and rode out the rest of the day together, occasionally gapping each other, but always regrouping at the end of the stages. 
 
 Back at the HQ, a burger van operated by the hardest working woman in wales and herself a Pan Celtic rider for the coming road event, was most riders lifeline as they rolled back in. Group photo's, hugs, weary showers, burger and beer, a most excellent day.
+
+I have since tried a sip of Gerkin water!
 
 ![Finish](../../assets/Gravel-Rally-Finish.jpg)
