@@ -95,7 +95,7 @@ The start on Monday was slow. The legs just didn’t want to move and of course,
 ![Avebury](../../assets/WWC2024-13.jpg)
 Photo - Kitty Dennis (@bluberrysmoothie_photos) and The Perfidious Albion (@theperfidiousalbion)
 
-Now for the final push north to checkpoint 4 at Avebury and then into the Cotswolds. The stones were reached around lunchtime but the last thirty odd miles to the finish seemed to take forever. This wasn’t helped by my rear Tailfin bag launching itself into my rear wheel and taking out three spokes. I luckily had that number of spares with me and a trained mechanic in the form of Mick to help with the repairs. Unbelievably we were on our way in under an hour with a very wobbly but rideable wheel. Of course it then started raining and the next couple of hours giving my new Albion rain jacket a good test!
+Now for the final push north to checkpoint 4 at Avebury and then into the Cotswolds. The stones were reached around lunchtime but the last thirty odd miles to the finish seemed to take forever. This wasn’t helped by my rear Tailfin bag launching itself into my rear wheel and taking out three spokes. I luckily had that number of spares with me and a trained mechanic in the form of Mick to help with the repairs. Unbelievably we were on our way in under an hour with a very wobbly but rideable wheel. Of course it then started raining and I spent the next couple of hours giving my new Albion rain jacket a good test!
 
 ![Fixing the wheel](../../assets/WWC2024-15.jpg)
 
