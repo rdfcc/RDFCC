@@ -6,10 +6,10 @@ description: "Jon's report of his first ultra of the year"
 image:
     url: "/src/assets/WWC2024-12.jpg"
     alt: "Jon on the Wild West Country - Photo Kitty Dennis (@bluberrysmoothie_photos) and The Perfidious Albion (@theperfidiousalbion)"
-pubDate: 2024-05-08
+pubDate: 2024-05-28
 tags: ["news", "endurance", "ride report"]
-frontpage: false
-draft: true
+frontpage: true
+draft: false
 ---
 Photo - Kitty Dennis (@bluberrysmoothie_photos) and The Perfidious Albion (@theperfidiousalbion)
 
