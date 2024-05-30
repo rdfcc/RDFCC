@@ -8,8 +8,8 @@ image:
     alt: "Traws Eryri participents"
 pubDate: 2024-05-30
 tags: ["news", "bikepacking", "ride report"]
-frontpage: false
-draft: true
+frontpage: true
+draft: false
 ---
 **Traws Eryri, May 2024**
 
