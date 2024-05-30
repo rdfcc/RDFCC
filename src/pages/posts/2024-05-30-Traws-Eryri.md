@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: Traws Eryri Bikepacking Trip
-author: Jon Riding
+author: Michelle Forster
 description: "Michelle writes about the club bikepacking trip along the Traws Eryri route"
 image:
     url: "/src/assets/TE-Title.jpg"

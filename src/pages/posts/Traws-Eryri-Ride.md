@@ -8,7 +8,7 @@ image:
     alt: "Glyderau Mountains"
 pubDate: 2024-03-06
 tags: ["news", "members", "bikepacking", "rides"]
-frontpage: true
+frontpage: false
 draft: false
 imagePrefix: ""
 ---
