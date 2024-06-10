@@ -8,7 +8,7 @@ image:
     alt: "RDFCC Awards Dinner 2023"
 pubDate: 2024-03-11
 tags: ["news", "members", "awards"]
-frontpage: true
+frontpage: false
 draft: false
 ---
 
