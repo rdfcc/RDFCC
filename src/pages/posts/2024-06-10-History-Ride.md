@@ -6,7 +6,7 @@ description: "A ride around the WWII locations in the Forest to commemorate the 
 image:
     url: "/src/assets/HR01.jpeg"
     alt: "History Ride"
-pubDate: 2024-03-06
+pubDate: 2024-06-10
 tags: ["news", "rides"]
 frontpage: true
 draft: false
