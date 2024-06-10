@@ -8,8 +8,8 @@ image:
     alt: "History Ride"
 pubDate: 2024-03-06
 tags: ["news", "rides"]
-frontpage: false
-draft: true
+frontpage: true
+draft: false
 imagePrefix: ""
 ---
 
