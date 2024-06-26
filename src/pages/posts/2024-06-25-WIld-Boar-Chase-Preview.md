@@ -8,8 +8,8 @@ image:
     alt: "History Ride"
 pubDate: 2024-06-25
 tags: ["news", "rides"]
-frontpage: false
-draft: true
+frontpage: true
+draft: false
 imagePrefix: ""
 ---
 This year the Wild Boar Chase is Sunday 1st Sept, and as in every year RDFCC have provided the Lions with the route - this years more gravelly than ever. The Full route is just over 40 miles using gravel in the Forest and short road and lane sections to take the route over to the Wye. Ideal for gravel bikes, the only challenge is the Rookery Lane descent to Newnham, which Chairman happily rides, but can be bypassed.

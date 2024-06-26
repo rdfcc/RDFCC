@@ -8,7 +8,7 @@ image:
     alt: "Lydbrook TT Course"
 pubDate: 2024-03-14
 tags: ["news", "members", "timetrial"]
-frontpage: true
+frontpage: false
 draft: false
 ---
 
