@@ -21,3 +21,7 @@ RDFCC have been involved in MTB events for a long time. Old timers remember even
 ![Wild Boar Chase](../../assets/WB01.png)
 
 The Club staged a couple more but struggled (as ever) to find the marshals/bandwidth and thankfully the Lions stepped in. The “Enduro” was run for 10 years until numbers dropped off - too full-on for your average rider! The WBC has proved much more popular with over 8000 riders in the 11 events raising many thousands for the Lions to help local causes. Our smart trainers were purchased with the help of the Lions.
+
+To find out more and to enter please click the link below:-
+
+<a href="https://www.fodmbe.org.uk/" target="_blank">https://www.fodmbe.org.uk/</a>
