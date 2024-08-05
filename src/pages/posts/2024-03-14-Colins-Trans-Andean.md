@@ -9,7 +9,7 @@ image:
     alt: "Colin Cartwright"
 pubDate: 2024-03-20
 tags: ["news", "members", "long distance"]
-frontpage: true
+frontpage: false
 draft: false
 ---
 

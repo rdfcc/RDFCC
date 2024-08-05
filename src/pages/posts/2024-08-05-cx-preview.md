@@ -8,8 +8,8 @@ image:
     alt: "CX Preview"
 pubDate: 2024-08-05
 tags: ["news", "cx"]
-frontpage: false
-draft: true
+frontpage: true
+draft: false
 imagePrefix: ""
 ---
 
@@ -25,7 +25,7 @@ We’re seeking volunteers to help with event preparation, and on the day. We’
 
 ![CX Preview](../../assets/CXP03.jpg)
 
-Finally, thanks go to the Angus Buchanan Trust who have kindly agreed the use of their grounds, Coleford Bowling Club for use of their clubhouse, the Western League Committee for their planning guidance, and to British Cycling for event homologation.
+Thanks go to the Angus Buchanan Trust who have kindly agreed the use of their grounds, Coleford Bowling Club for use of their clubhouse, the Western League Committee for their planning guidance, and to British Cycling for event homologation.
 
 We can’t wait to see you there!
 CROSS IS COMING
@@ -36,4 +36,4 @@ CROSS IS COMING
 [www.britishcycling.org](https://www.britishcycling.org.uk/events/details/307307/Western-Cyclo-Cross-League-Round-9---Forest-of-Dean---Winter-20242025-Season)
 
 
-[https://www.angusbuchananvcrecreationground.co.uk](www.angusbuchananvcrecreationground.co.uk)
+[www.angusbuchananvcrecreationground.co.uk](https://www.angusbuchananvcrecreationground.co.uk)
