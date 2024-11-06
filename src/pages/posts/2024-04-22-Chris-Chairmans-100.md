@@ -8,7 +8,7 @@ image:
     alt: "Dave McDonald"
 pubDate: 2024-04-22
 tags: ["news", "members", "long distance"]
-frontpage: true
+frontpage: false
 draft: false
 ---
 This was a solo attempt for me today so left home at Symonds Yat at 6am as it is daylight now, and joined Matt Neale’s route at Goodrich. A chilly 4c for the off so layered up! 
