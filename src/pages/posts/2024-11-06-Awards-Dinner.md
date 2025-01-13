@@ -8,7 +8,7 @@ image:
     alt: "AGM"
 pubDate: 2024-11-06
 tags: ["news", "awards"]
-frontpage: true
+frontpage: false
 draft: false
 imagePrefix: ""
 ---
