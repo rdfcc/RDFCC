@@ -20,6 +20,8 @@ The location is the Angus Buchanan VC Recreation Grounds in Victoria Road, Colef
 
 To enter the event please visit this <a href="https://www.britishcycling.org.uk/events/details/307307/Western-Cyclo-Cross-League-Round-9---Forest-of-Dean---Winter-20242025-Season" target="_blank">link</a>
 
+One the day entry will also be available.
+
 The schedule for the day is as follows:
 
 <table><thead><tr><th>Sighting (course is open)</th><th>Race (only race cat riding)</th><th>Category</th></tr></thead><tbody><tr><td>0900</td><td>0930-0945</td><td>U12, U10, U8 (15 mins)</td></tr><tr><td>0950</td><td>1010-1040</td><td>U16, U14 (30 mins)</td></tr><tr><td>1040</td><td>1110-1150</td><td>V40 and Open Junior (40 mins)</td></tr><tr><td>1150</td><td>1220-1300</td><td>Women (Junior, Senior, Vets) (40 mins)</td></tr><tr><td>1300</td><td>1330-1410</td><td>Open (V50, V60) (40 mins)</td></tr><tr><td>1415</td><td>1445-1545</td><td>Open (Senior and U23) (60 mins)</td></tr></tbody></table>
