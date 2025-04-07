@@ -1,0 +1,32 @@
+[
+{
+    "Num": 8,
+    "Date": "04/06/2024",
+    "Time": "19:30",
+    "Name": "Speech House 10",
+    "Course": "UC504",
+    "Distance": "10 miles",
+    "CourseLink": "speechhouse10",
+    "CTTLink":"UC504"
+  },
+  {
+    "Num": 20,
+    "Date": "27/08/2024",
+    "Time": "19:00",
+    "Name": "Fetter HC",
+    "Course": "Fetter HC",
+    "Distance": "2 miles",
+    "CourseLink": "fetter-hill",
+    "CTTLink":"uhc515-fetter-hill"
+  },
+  {
+    "Num": 22,
+    "Date": "22/09/2024",
+    "Time": "10:00",
+    "Name": "Vintage Tankard",
+    "Course": "Vintage Tankard Ross",
+    "Distance": "25km",
+    "CourseLink": "Vintage-Tankard-Ross",
+    "CTTLink":"vintage-tankard"
+  }
+]
