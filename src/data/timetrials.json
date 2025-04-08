@@ -7,7 +7,7 @@
     "Course": "Parkend 1km",
     "Distance": "1km",
     "CourseLink": "parkend-sprint",
-    "CTTLink":"uc503-parkend-1-km"
+    "CTTLink":"4106-uc-503-parkend-1-km"
   },
   {
     "Num": 2,
@@ -17,7 +17,7 @@
     "Course": "uc501",
     "Distance": "10 miles",
     "CourseLink": "lydbrook10",
-    "CTTLink":"uc501"
+    "CTTLink":"4110-uc-501"
   },
   {
     "Num": 3,
@@ -27,7 +27,7 @@
     "Course": "uc501",
     "Distance": "10 miles",
     "CourseLink": "lydbrook10",
-    "CTTLink":"uc501"
+    "CTTLink":"4110-uc-501"
   },
   {
     "Num": 4,
@@ -37,7 +37,7 @@
     "Course": "UC507",
     "Distance": "6 miles",
     "CourseLink": "lower-cannop",
-    "CTTLink":"uc507"
+    "CTTLink":"4119-uc-507"
   },
   {
     "Num": 5,
@@ -47,7 +47,7 @@
     "Course": "uc501",
     "Distance": "10 miles",
     "CourseLink": "lydbrook10",
-    "CTTLink":"uc501"
+    "CTTLink":"4110-uc-501"
   },
   {
     "Num": 6,
@@ -57,7 +57,7 @@
     "Course": "uc507",
     "Distance": "12 miles",
     "CourseLink": "cannop",
-    "CTTLink":"uc507"
+    "CTTLink":"4119-uc-507"
   },
   {
     "Num": 7,
@@ -67,7 +67,7 @@
     "Course": "UC506",
     "Distance": "15 miles",
     "CourseLink": "hilly-lydbrook",
-    "CTTLink":"uc506"
+    "CTTLink":"4116-uc-506"
   },
   {
     "Num": 8,
@@ -77,7 +77,7 @@
     "Course": "uc507",
     "Distance": "12 miles",
     "CourseLink": "lower-cannop",
-    "CTTLink":"uc507"
+    "CTTLink":"4119-uc-507"
   },
   {
     "Num": 9,
@@ -87,7 +87,7 @@
     "Course": "uc501",
     "Distance": "10 miles",
     "CourseLink": "lydbrook10",
-    "CTTLink":"uc501"
+    "CTTLink":"4110-uc-501"
   },
   {
     "Num": 10,
@@ -97,7 +97,7 @@
     "Course": "uc507",
     "Distance": "6 miles",
     "CourseLink": "lower-cannop",
-    "CTTLink":"uc507"
+    "CTTLink":"4119-uc-507"
   },
   {
     "Num": 11,
@@ -107,7 +107,7 @@
     "Course": "uc501",
     "Distance": "10 miles",
     "CourseLink": "lydbrook10",
-    "CTTLink":"uc501"
+    "CTTLink":"4110-uc-501"
   },
   {
     "Num": 12,
@@ -117,7 +117,7 @@
     "Course": "UC506",
     "Distance": "15 miles",
     "CourseLink": "hilly-lydbrook",
-    "CTTLink":"uc506"
+    "CTTLink":"4116-uc-506"
   },
   {
     "Num": 13,
@@ -127,7 +127,7 @@
     "Course": "uc507",
     "Distance": "18 miles",
     "CourseLink": "lower-cannop",
-    "CTTLink":"uc507"
+    "CTTLink":"4119-uc-507"
   },
   {
     "Num": 14,
@@ -137,7 +137,7 @@
     "Course": "uc501",
     "Distance": "10 miles",
     "CourseLink": "lydbrook10",
-    "CTTLink":"uc501"
+    "CTTLink":"4110-uc-501"
   },
   {
     "Num": 15,
@@ -147,7 +147,7 @@
     "Course": "uc501",
     "Distance": "10 miles",
     "CourseLink": "lydbrook10",
-    "CTTLink":"uc501"
+    "CTTLink":"4110-uc-501"
   },
   {
     "Num": 16,
@@ -157,7 +157,7 @@
     "Course": "uc507",
     "Distance": "18 miles",
     "CourseLink": "cannop",
-    "CTTLink":"uc507"
+    "CTTLink":"4119-uc-507"
   },
   {
     "Num": 17,
@@ -167,7 +167,7 @@
     "Course": "Parkend 1km",
     "Distance": "1km",
     "CourseLink": "parkend-sprint",
-    "CTTLink":"uc503-parkend-1-km"
+    "CTTLink":"4106-uc-503-parkend-1-km"
   },
   {
     "Num": 18,
@@ -177,7 +177,7 @@
     "Course": "uch514",
     "Distance": "2 miles",
     "CourseLink": "cats-hill-hc",
-    "CTTLink":"uch514-cats-hill"
+    "CTTLink":"4107-uhc-514-cats-hill"
   },
   {
     "Num": 19,
@@ -187,7 +187,7 @@
     "Course": "Open TT",
     "Distance": "25 mile",
     "CourseLink": "open-tt",
-    "CTTLink":"r25-7"
+    "CTTLink":"43-r-25-7"
   },
   {
     "Num": 20,
@@ -197,7 +197,7 @@
     "Course": "Bigswier HC",
     "Distance": "2 miles",
     "CourseLink": "bigsweir-hill-climb",
-    "CTTLink":"uhc513-bigsweir"
+    "CTTLink":"4105-uhc-513-bigsweir"
   },
   {
     "Num": 21,
@@ -207,7 +207,7 @@
     "Course": "Speech Ho HC",
     "Distance": "1 miles",
     "CourseLink": "speech-house",
-    "CTTLink":"uhc512"
+    "CTTLink":"4007-uhc-512"
   },
   {
     "Num": 22,
@@ -217,6 +217,6 @@
     "Course": "uc507",
     "Distance": "18 miles",
     "CourseLink": "lower-cannop",
-    "CTTLink":"uc507"
+    "CTTLink":"4119-uc-507"
   }
 ]
