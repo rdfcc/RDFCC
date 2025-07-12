@@ -153,11 +153,11 @@
     "Num": 16,
     "Date": "29/07/2025",
     "Time": "19:00",
-    "Name": "Upper Cannop x3",
-    "Course": "uc507",
-    "Distance": "18 miles",
-    "CourseLink": "cannop",
-    "CTTLink":"4119-uc-507"
+    "Name": "Lydbrook 10",
+    "Course": "uc501",
+    "Distance": "10 miles",
+    "CourseLink": "lydbrook10",
+    "CTTLink":"4110-uc-501"
   },
   {
     "Num": 17,
