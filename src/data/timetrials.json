@@ -212,11 +212,11 @@
   {
     "Num": 22,
     "Date": "28/09/2025",
-    "Time": "19:00",
-    "Name": "Lower Cannop x3",
-    "Course": "uc507",
-    "Distance": "18 miles",
-    "CourseLink": "lower-cannop",
-    "CTTLink":"4119-uc-507"
+    "Time": "10:00",
+    "Name": "Vintage Tankard",
+    "Course": "UC506",
+    "Distance": "15 miles",
+    "CourseLink": "hilly-lydbrook",
+    "CTTLink":"4116-uc-506"
   }
 ]
