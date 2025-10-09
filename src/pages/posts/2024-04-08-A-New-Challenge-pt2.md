@@ -8,7 +8,7 @@ image:
     alt: "Dave McDonald"
 pubDate: 2024-04-08
 tags: ["news", "members", "long distance"]
-frontpage: true
+frontpage: false
 draft: false
 ---
 Having done Asia, wouldn't it be a interesting challenge to go to Africa

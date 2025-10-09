@@ -8,7 +8,7 @@ image:
     alt: "RDFCC at the Gravel Rally"
 pubDate: 2024-05-08
 tags: ["news", "gravel", "ride report"]
-frontpage: true
+frontpage: false
 draft: false
 ---
 'It's brilliant, you'd love it' that is all one cyclist needs to mutter to another cyclist to put red flag to the bull. Jon recommended the event having done it before and their multi day road event, so a few of us got online and booked ourselves in.

@@ -8,7 +8,7 @@ image:
     alt: "Dave McDonald"
 pubDate: 2024-03-26
 tags: ["news", "members", "long distance"]
-frontpage: true
+frontpage: false
 draft: false
 ---
 
