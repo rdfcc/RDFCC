@@ -8,8 +8,8 @@ image:
     alt: "Colin Cartwright"
 pubDate: 2025-10-09
 tags: ["news", "members", "long distance"]
-frontpage: false
-draft: true
+frontpage: true
+draft: false
 ---
 
 Mid May found me at the finish line of the Wild West Country event, pleased and happy at my first attempt of a multiday self-supported cycle across ~800km of some of the hilliest roads in the southwest of England. (And most of it with just one brake). One ‘ultra’ cycle done and wanting to do more….
