@@ -8,7 +8,7 @@ image:
     alt: "CX Preview"
 pubDate: 2024-08-05
 tags: ["news", "cx"]
-frontpage: true
+frontpage: false
 draft: false
 imagePrefix: ""
 ---
