@@ -8,7 +8,7 @@ image:
     alt: "AGM"
 pubDate: 2025-01-13
 tags: ["news", "race"]
-frontpage: true
+frontpage: false
 draft: false
 imagePrefix: ""
 ---
