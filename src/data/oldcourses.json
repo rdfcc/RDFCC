@@ -28,5 +28,35 @@
     "Distance": "25km",
     "CourseLink": "Vintage-Tankard-Ross",
     "CTTLink":"vintage-tankard"
+  },
+  {
+    "Num": 21,
+    "Date": "26/08/2025",
+    "Time": "19:00",
+    "Name": "Speech Ho HC",
+    "Course": "Speech Ho HC",
+    "Distance": "1 miles",
+    "CourseLink": "speech-house",
+    "CTTLink":"4007-uhc-512"
+  },
+  {
+    "Num": 22,
+    "Date": "28/09/2025",
+    "Time": "10:00",
+    "Name": "Vintage Tankard",
+    "Course": "UC506",
+    "Distance": "15 miles",
+    "CourseLink": "Vintage-Tankard-Forest",
+    "CTTLink":"4116-uc-506"
+  },
+  {
+    "Num": 13,
+    "Date": "08/07/2025",
+    "Time": "19:00",
+    "Name": "Lower Cannop x3 - Lindsay Venner Meml",
+    "Course": "uc507",
+    "Distance": "18 miles",
+    "CourseLink": "lower-cannop",
+    "CTTLink":"4119-uc-507"
   }
 ]

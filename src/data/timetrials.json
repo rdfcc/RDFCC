@@ -1,8 +1,8 @@
 [
   {
     "Num": 1,
-    "Date": "15/04/2025",
-    "Time": "19:00",
+    "Date": "25/03/2026",
+    "Time": "18:00",
     "Name": "Parkend 1km Sprint",
     "Course": "Parkend 1km",
     "Distance": "1km",
@@ -11,17 +11,17 @@
   },
   {
     "Num": 2,
-    "Date": "22/04/2025",
+    "Date": "15/04/2026",
     "Time": "19:00",
-    "Name": "Lydbrook 10",
-    "Course": "uc501",
-    "Distance": "10 miles",
-    "CourseLink": "lydbrook10",
-    "CTTLink":"4110-uc-501"
+    "Name": "Parkend 1km Sprint",
+    "Course": "Parkend 1km",
+    "Distance": "1km",
+    "CourseLink": "parkend-sprint",
+    "CTTLink":"4106-uc-503-parkend-1-km"
   },
   {
     "Num": 3,
-    "Date": "29/04/2025",
+    "Date": "22/04/2026",
     "Time": "19:00",
     "Name": "Lydbrook 10",
     "Course": "uc501",
@@ -31,7 +31,17 @@
   },
   {
     "Num": 4,
-    "Date": "06/05/2025",
+    "Date": "29/04/2026",
+    "Time": "19:00",
+    "Name": "Lydbrook 10",
+    "Course": "uc501",
+    "Distance": "10 miles",
+    "CourseLink": "lydbrook10",
+    "CTTLink":"4110-uc-501"
+  },
+  {
+    "Num": 5,
+    "Date": "06/05/2026",
     "Time": "19:00",
     "Name": "Lower Cannop x1",
     "Course": "UC507",
@@ -40,8 +50,8 @@
     "CTTLink":"4119-uc-507"
   },
   {
-    "Num": 5,
-    "Date": "13/05/2025",
+    "Num": 6,
+    "Date": "13/05/2026",
     "Time": "19:00",
     "Name": "Lydbrook 10",
     "Course": "uc501",
@@ -50,8 +60,8 @@
     "CTTLink":"4110-uc-501"
   },
   {
-    "Num": 6,
-    "Date": "20/05/2025",
+    "Num": 7,
+    "Date": "20/05/2026",
     "Time": "19:00",
     "Name": "Upper Cannop x2",
     "Course": "uc507",
@@ -60,18 +70,18 @@
     "CTTLink":"4119-uc-507"
   },
   {
-    "Num": 7,
-    "Date": "27/05/2025",
+    "Num": 8,
+    "Date": "27/05/2026",
     "Time": "19:00",
-    "Name": "Hilly Lydbrook",
-    "Course": "UC506",
-    "Distance": "15 miles",
-    "CourseLink": "hilly-lydbrook",
-    "CTTLink":"4116-uc-506"
+    "Name": "Lydbrook 10",
+    "Course": "uc501",
+    "Distance": "10 miles",
+    "CourseLink": "lydbrook10",
+    "CTTLink":"4110-uc-501"
   },
   {
-    "Num": 8,
-    "Date": "03/06/2025",
+    "Num": 9,
+    "Date": "03/06/2026",
     "Time": "19:00",
     "Name": "Lower Cannop x2",
     "Course": "uc507",
@@ -80,38 +90,18 @@
     "CTTLink":"4119-uc-507"
   },
   {
-    "Num": 9,
-    "Date": "10/06/2025",
+    "Num": 10,
+    "Date": "10/06/2026",
     "Time": "19:00",
     "Name": "Lydbrook 10",
     "Course": "uc501",
     "Distance": "10 miles",
     "CourseLink": "lydbrook10",
     "CTTLink":"4110-uc-501"
-  },
-  {
-    "Num": 10,
-    "Date": "17/06/2025",
-    "Time": "19:00",
-    "Name": "Lower Cannop x1",
-    "Course": "uc507",
-    "Distance": "6 miles",
-    "CourseLink": "lower-cannop",
-    "CTTLink":"4119-uc-507"
   },
   {
     "Num": 11,
-    "Date": "24/06/2025",
-    "Time": "19:00",
-    "Name": "Lydbrook 10",
-    "Course": "uc501",
-    "Distance": "10 miles",
-    "CourseLink": "lydbrook10",
-    "CTTLink":"4110-uc-501"
-  },
-  {
-    "Num": 12,
-    "Date": "01/07/2025",
+    "Date": "17/06/2026",
     "Time": "19:00",
     "Name": "Hilly Lydbrook",
     "Course": "UC506",
@@ -120,10 +110,20 @@
     "CTTLink":"4116-uc-506"
   },
   {
-    "Num": 13,
-    "Date": "08/07/2025",
+    "Num": 12,
+    "Date": "24/06/2026",
     "Time": "19:00",
-    "Name": "Lower Cannop x3 - Lindsay Venner Meml",
+    "Name": "Lydbrook 10",
+    "Course": "uc501",
+    "Distance": "10 miles",
+    "CourseLink": "lydbrook10",
+    "CTTLink":"4110-uc-501"
+  },
+  {
+    "Num": 13,
+    "Date": "01/07/2026 - Lindsay Venner Meml",
+    "Time": "19:00",
+    "Name": "Lower Cannop x3",
     "Course": "uc507",
     "Distance": "18 miles",
     "CourseLink": "lower-cannop",
@@ -131,7 +131,7 @@
   },
   {
     "Num": 14,
-    "Date": "15/07/2025",
+    "Date": "08/07/2026",
     "Time": "19:00",
     "Name": "Lydbrook 10",
     "Course": "uc501",
@@ -141,37 +141,7 @@
   },
   {
     "Num": 15,
-    "Date": "22/07/2025",
-    "Time": "19:00",
-    "Name": "Lydbrook 10",
-    "Course": "uc501",
-    "Distance": "10 miles",
-    "CourseLink": "lydbrook10",
-    "CTTLink":"4110-uc-501"
-  },
-  {
-    "Num": 16,
-    "Date": "29/07/2025",
-    "Time": "19:00",
-    "Name": "Lydbrook 10",
-    "Course": "uc501",
-    "Distance": "10 miles",
-    "CourseLink": "lydbrook10",
-    "CTTLink":"4110-uc-501"
-  },
-  {
-    "Num": 17,
-    "Date": "05/08/2025",
-    "Time": "19:00",
-    "Name": "Parkend 1km Sprint",
-    "Course": "Parkend 1km",
-    "Distance": "1km",
-    "CourseLink": "parkend-sprint",
-    "CTTLink":"4106-uc-503-parkend-1-km"
-  },
-  {
-    "Num": 18,
-    "Date": "12/08/2025",
+    "Date": "15/07/2026",
     "Time": "19:30",
     "Name": "Cats Hill HC",
     "Course": "uch514",
@@ -180,18 +150,48 @@
     "CTTLink":"4107-uhc-514-cats-hill"
   },
   {
+    "Num": 16,
+    "Date": "22/07/2026",
+    "Time": "19:00",
+    "Name": "Hilly Lydbrook",
+    "Course": "UC506",
+    "Distance": "15 miles",
+    "CourseLink": "hilly-lydbrook",
+    "CTTLink":"4116-uc-506"
+  },
+  {
+    "Num": 17,
+    "Date": "29/07/2026",
+    "Time": "19:00",
+    "Name": "Lydbrook 10",
+    "Course": "uc501",
+    "Distance": "10 miles",
+    "CourseLink": "lydbrook10",
+    "CTTLink":"4110-uc-501"
+  },
+  {
+    "Num": 18,
+    "Date": "05/08/2026",
+    "Time": "19:00",
+    "Name": "Fetter HC",
+    "Course": "Fetter HC",
+    "Distance": "2 miles",
+    "CourseLink": "fetter-hill",
+    "CTTLink":"uhc515-fetter-hill"
+  },
+  {
     "Num": 19,
-    "Date": "17/08/2024",
-    "Time": "08:00",
-    "Name": "Open TT",
-    "Course": "Open TT",
-    "Distance": "25 mile",
-    "CourseLink": "open-tt",
-    "CTTLink":"43-r-25-7"
+    "Date": "12/08/2026",
+    "Time": "19:00",
+    "Name": "Lydbrook 10",
+    "Course": "uc501",
+    "Distance": "10 miles",
+    "CourseLink": "lydbrook10",
+    "CTTLink":"4110-uc-501"
   },
   {
     "Num": 20,
-    "Date": "19/08/2025",
+    "Date": "19/08/2026",
     "Time": "19:00",
     "Name": "Bigswier HC",
     "Course": "Bigswier HC",
@@ -201,22 +201,33 @@
   },
   {
     "Num": 21,
-    "Date": "26/08/2025",
-    "Time": "19:00",
-    "Name": "Speech Ho HC",
-    "Course": "Speech Ho HC",
-    "Distance": "1 miles",
-    "CourseLink": "speech-house",
-    "CTTLink":"4007-uhc-512"
+    "Date": "23/08/2026",
+    "Time": "08:00",
+    "Name": "Open TT",
+    "Course": "Open TT",
+    "Distance": "25 mile",
+    "CourseLink": "open-tt",
+    "CTTLink":"43-r-25-7"
   },
   {
     "Num": 22,
-    "Date": "28/09/2025",
-    "Time": "10:00",
-    "Name": "Vintage Tankard",
-    "Course": "UC506",
-    "Distance": "15 miles",
-    "CourseLink": "Vintage-Tankard-Forest",
-    "CTTLink":"4116-uc-506"
+    "Date": "26/07/2026",
+    "Time": "19:00",
+    "Name": "Lower Cannop x1",
+    "Course": "uc507",
+    "Distance": "6 miles",
+    "CourseLink": "lower-cannop",
+    "CTTLink":"4119-uc-507"
+  },
+  {
+    "Num": 23,
+    "Date": "02/09/2026",
+    "Time": "19:00",
+    "Name": "Parkend 1km Sprint",
+    "Course": "Parkend 1km",
+    "Distance": "1km",
+    "CourseLink": "parkend-sprint",
+    "CTTLink":"4106-uc-503-parkend-1-km"
   }
+
 ]
