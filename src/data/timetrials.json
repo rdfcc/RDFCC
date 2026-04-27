@@ -23,21 +23,21 @@
     "Num": 3,
     "Date": "22/04/2026",
     "Time": "19:00",
-    "Name": "Lydbrook 10",
-    "Course": "uc501",
-    "Distance": "10 miles",
-    "CourseLink": "lydbrook10",
-    "CTTLink":"4110-uc-501"
+    "Name": "Lower Cannop x1",
+    "Course": "UC507",
+    "Distance": "6 miles",
+    "CourseLink": "lower-cannop",
+    "CTTLink":"4119-uc-507"
   },
   {
     "Num": 4,
     "Date": "29/04/2026",
     "Time": "19:00",
-    "Name": "Lydbrook 10",
-    "Course": "uc501",
-    "Distance": "10 miles",
-    "CourseLink": "lydbrook10",
-    "CTTLink":"4110-uc-501"
+    "Name": "Upper Cannop x2",
+    "Course": "uc507",
+    "Distance": "12 miles",
+    "CourseLink": "cannop",
+    "CTTLink":"4119-uc-507"
   },
   {
     "Num": 5,
@@ -57,7 +57,11 @@
     "Course": "uc501",
     "Distance": "10 miles",
     "CourseLink": "lydbrook10",
-    "CTTLink":"4110-uc-501"
+    "CTTLink":"4110-uc-501"  "Name": "Upper Cannop x2",
+    "Course": "uc507",
+    "Distance": "12 miles",
+    "CourseLink": "cannop",
+    "CTTLink":"4119-uc-507"
   },
   {
     "Num": 7,
